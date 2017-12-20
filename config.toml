@@ -3,13 +3,13 @@ languageCode        = "en-us"
 title               = "Make Yourself Designs"
 theme               = "introduction"
 enforce_ssl         = false
-builddrafts         = false                         # Include pages with draft status of true
+builddrafts         = true                    # Include pages with draft status of true
 canonifyurls        = true                          # Turns relative urls into absolute urls
 # disqusshortname   = "xxx"                         # Enable Disqus for comments
 # googleAnalytics   = "xxx"
 
 [params]
-    bloghead        = "Blog"                        # Full name shows on blog post pages
+    bloghead        = "MYD Blog"                        # Full name shows on blog post pages
     companyname       = "Make Yourself Designs"                # First name shows in introduction on main page
     tagline         = "High Quality Handmade Bags 💕"       # Appears after the introduction
     introheight     = "large"                       # Input either 'medium' or 'large' or 'fullheight'

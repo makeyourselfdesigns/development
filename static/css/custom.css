@@ -1,0 +1,15 @@
+.circular {
+    margin-left: 15px;
+}
+
+.social-icons a.circular i.fa {
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0px 0px 2px #00b8d4;
+    padding: 0.7em 0.8em;
+
+}
+
+.modal-close {
+    background-color: #00b8d4;
+}

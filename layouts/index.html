@@ -36,7 +36,7 @@
     <nav class="nav-center">
         <a class="nav-item" href="#about">About</a>
         {{ if .Site.Params.showprojects }}
-        <a class="nav-item" href="#projects">Projects</a>
+            <a class="nav-item" href="#store">Store</a>
         {{ end }}
         {{ if .Site.Params.showblog }}
         <a class="nav-item" href="#blog">Blog</a>
@@ -72,7 +72,7 @@
         </div>
     </div><!-- End About container-->
 
-<div class="container has-text-centered top-pad"><a href="#top"><i class="fa fa-arrow-up"></i></a></div>
+<!-- <div class="container has-text-centered top-pad"><a href="#top"><i class="fa fa-arrow-up"></i></a></div> -->
 </div><!-- End About section -->
 
 <div class="container"><hr></div>
@@ -80,8 +80,8 @@
 
 <!-- Now for some cool projects -->
     {{ if .Site.Params.showprojects }}
-    <div class="section" id="projects">
-        {{ partial "projects.html" . }}
+    <div class="section" id="store">
+        {{ partial "store.html" . }}
     </div><!-- End Projects section -->
 
     <div class="container"><hr></div>
@@ -130,7 +130,7 @@
         {{ partial "social.html" . }}
     </div><!-- End Contact container -->
 
-	<div class="container has-text-centered top-pad"><a href="#top"><i class="fa fa-arrow-up"></i></a></div>
+	<!-- <div class="container has-text-centered top-pad"><a href="#top"><i class="fa fa-arrow-up"></i></a></div> -->
 </div><!-- End Contact section -->
 
 <div class="container"><hr></div>

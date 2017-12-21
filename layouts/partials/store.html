@@ -51,6 +51,13 @@
         {{ if .Params.image }}
             <img src="{{ .Params.image }}" class="img-responsive img-centered">
         {{ end }}
+
+        {{ if .Params.description }}
+            <div class="description">
+                <p>{{ .Params.description }}</p>
+            </div>
+        {{ end }}
+
         {{ if .Content }}
         <section class="modal-card-body markdown">
             {{ .Content }}

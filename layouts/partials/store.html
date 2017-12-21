@@ -53,8 +53,20 @@
         {{ end }}
 
         {{ if .Params.description }}
-            <div class="description">
+        <div class="description">
+                {{ if .Params.etsyLink }}
+                    <div class="">
+                        <a class="etsy-link" href="{{ .Params.etsyLink }}">More Photos</a>
+                    </div>
+                {{ end }}
                 <p>{{ .Params.description }}</p>
+            </div>
+        {{ end }}
+
+        {{ if .Params.etsyLink }}
+
+            <div class="has-text-centered">
+                <a class="buy-btn button is-primary is-outlined" href="{{ .Params.etsyLink }}">Purchase</a>
             </div>
         {{ end }}
 

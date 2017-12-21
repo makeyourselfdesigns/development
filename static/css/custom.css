@@ -1,5 +1,9 @@
 .circular {
-    margin-left: 15px;
+    padding-left: 15px;
+}
+
+.social-icons {
+    margin-right: 15px;
 }
 
 .social-icons a.circular i.fa {
@@ -15,5 +19,9 @@
 }
 
 .description {
-    margin-top: 30px;
+    margin-top: 20px !important;
+}
+
+.buy-btn {
+    margin-top: 20px!important;
 }

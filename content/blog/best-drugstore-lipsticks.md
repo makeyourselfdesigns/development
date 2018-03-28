@@ -50,4 +50,6 @@ These are all really great options for the drugstore, and super convenient to pi
 
 **_Thank you_** so much for taking the time to read this blog! If you like what you see be sure to follow my pinterest page and check out my beauty inspired boards for more tips and tricks.
 
-Don’t forget to check out my Makeup Bags, because what goes better with lipstick than a convenient place to store it in your purse? :)
+Don’t forget to check out my Makeup Bags, because what goes better with lipstick than a convenient place to store it in your purse? ;)
+
+![](https://lh3.googleusercontent.com/vyuBSd8TDRPFYpZ95g0aWmFZ1fCf3yfufdLmpDoVLHFjVMjftSwS79e0YXmn31-DGccSz7UNwMuJYz9FCWOUmISA8JqDimz6JsIdHpsIR86rlDiQiMlCXJ1swf-iqBvA1fqtSa2H) {width: 318px; height: 212px}

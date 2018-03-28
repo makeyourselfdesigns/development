@@ -10,7 +10,7 @@ Shopping the drugstore is not only convenient, but its budget friendly. Especial
 
 Are you ready to **_make yourself_** over with a new affordable lip? Here are some of my favorite lipsticks the drugstore has to offer that are the best bang for your buck (yeah and some of these are almost one buck!)
 
-1. L’Oreal Paris Pro Matte Liquid Lipstick [9.99 on Ulta.com](https://www.ulta.com/infallible-pro-matte-liquid-lipstick?productId=xlsImpprod16211151#)
+1\. L’Oreal Paris Pro Matte Liquid Lipstick [9.99 on Ulta.com](https://www.ulta.com/infallible-pro-matte-liquid-lipstick?productId=xlsImpprod16211151#)
 
 ![](https://lh3.googleusercontent.com/CfyQgiqktGjcDnBNpAfosENVC0sCuYRGhRZN2AJ9idqGXbrLS7pbZKPwk1CdkLrSPlY7AWIif1dFgMEGXto5vUcA0AuNfES6VNi_qISQtX8BO9GAaUXdvF8DCnnqh9lQGhIicSw6)
 

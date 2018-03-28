@@ -48,7 +48,7 @@ p img {
 }
 
 .hero-body {
-  background: url(../img/landing.png) no-repeat center center;
+  background: url(../img/landing.jpeg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -90,7 +90,7 @@ p img {
 
 @media screen and (max-width: 769px) {
   .hero-body {
-    background:  url(../img/landing-white.png) no-repeat center center;
+    background:  url(../img/landing-white.jpeg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -105,7 +105,7 @@ p img {
   }
 
   .hero-body {
-    background:  url(../img/landing-phone.png) no-repeat center center;
+    background:  url(../img/landing-phone.jpeg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

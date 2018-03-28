@@ -18,7 +18,6 @@ The formula goes on smooth, and the applicator has a pointed end to really defin
 
 2\. Maybelline Color Sensational Lipsticks (All Varieties) [5.50 at Walmart](https://www.walmart.com/ip/Maybelline-New-York-Color-Sensational-Lipstick-Barely-Brown/16929086)
 
-  
 ![](https://lh6.googleusercontent.com/OhOCeGxL5kCQFgs0Cj4r7tsxMWnPodf5TcbKx2909xUXA2Bxnv5AUIk_Vm0aJnkE4FoFD5Esb1J-rgKltrUr5rHCvtB8_ZoRthnmoVMqOtWpoIe9Q5ebgCEtqmCL2VIrRTEZKQ3j =517x416)
 
 The color sensational brand has a couple different varieties including Bold, Matte, Metallics, The Buffs, and Vivids. Each of these lines are amazing in their own respect. I have to say these are by far THE BEST lipsticks at the drugstore. They out perform any tube lipstick at sephora in longevity and color payoff, and they’re 8 bucks!
@@ -51,4 +50,4 @@ These are all really great options for the drugstore, and super convenient to pi
 
 **_Thank you_** so much for taking the time to read this blog! If you like what you see be sure to follow my pinterest page and check out my beauty inspired boards for more tips and tricks.
 
-Don’t forget to check out my Makeup Bags, because what goes better with lipstick than a convenient place to store it in your purse? ;)
+Don’t forget to check out my Makeup Bags, because what goes better with lipstick than a convenient place to store it in your purse? :)

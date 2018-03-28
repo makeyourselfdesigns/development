@@ -1,40 +1,53 @@
 <div class="container">
     <!-- Begin Projects container -->
-    <h2 class="title is-2 has-text-centered">Store</h2>
-
-    <div class="section is-small">
-        <div class="columns is-multiline">
-            {{ range sort .Pages }} {{ if eq .Section "products" }}
-            {{ if eq .Site.Params.projectcolumns "2" }}
-            <div class="column is-half"> {{ else if eq .Site.Params.projectcolumns "3" }}
-            <div class="column is-one-third"> {{ end }}
-                <!-- Hey Vicky, show half column if number is even. -->
-                <div class="card">
-                        <div class="card-image">
-                            <figure class="image is-3by2">
-                                <a {{ if .Params.external_link }}
-                                    href="{{ .Params.external_link }}"
-                                    {{ else }}
-                                    id="project{{.Title | urlize}}"
-                                    {{ end }}>
-                                    <img src="{{ if .Params.image }}{{ .Params.image }}{{ else }}{{ .Site.Params.placeholderimg }}{{ end }}">
-                                </a>
-                            </figure>
-                        </div>
-                        <div class="card-content has-text-centered top-pad">
-                                <a {{ if .Params.external_link }}
-                                    href="{{ .Params.external_link }}"
-                                    {{ else }}
-                                    id="project{{.Title | urlize}}"
-                                    {{ end }}>
-                                    {{ .Title }}
-                                </a>
-                        </div>
-                </div>
-            </div>
-            {{ end }} {{ end }}
+    <div class="store-header">
+        <h2 class="title is-2 has-text-centered">Shop</h2>
+        <hr>
+          <nav class="nav-center has-text-centred" id="store-categories">
+            {{ range $name, $taxonomy := .Site.Taxonomies.categories.ByCount }}
+              <a class="nav-item" href="#{{ .Term }}">{{ .Term | humanize | title  }}</a>
+            {{ end }}
+          </nav>
+        <hr>
+    </div>
+    {{ range $, $taxonomy := .Site.Taxonomies.categories.ByCount }}
+    <div id="{{ .Term }}">
+      <h3 class="title has-text-centered">{{ .Term | humanize | title  }}</h3>
+      <div class="section is-small">
+      <div class="columns is-multiline">
+          {{ range sort $taxonomy.Pages }} {{ if eq .Section "products" }}
+          {{ if eq .Site.Params.projectcolumns "2" }}
+          <div class="column is-half"> {{ else if eq .Site.Params.projectcolumns "3" }}
+          <div class="column is-one-third"> {{ end }}
+              <!-- Hey Vicky, show half column if number is even. -->
+              <div class="card">
+                      <div class="card-image">
+                          <figure class="image is-3by2">
+                              <a {{ if .Params.external_link }}
+                                  href="{{ .Params.external_link }}"
+                                  {{ else }}
+                                  id="project{{.Title | urlize}}"
+                                  {{ end }}>
+                                  <img src="{{ if .Params.image }}{{ .Params.image }}{{ else }}{{ .Site.Params.placeholderimg }}{{ end }}">
+                              </a>
+                          </figure>
+                      </div>
+                      <div class="card-content has-text-centered top-pad">
+                              <a class="price" {{ if .Params.external_link }}
+                                  href="{{ .Params.external_link }}"
+                                  {{ else }}
+                                  id="project{{.Title | urlize}}"
+                                  {{ end }}>
+                                  {{ .Params.price }}
+                              </a>
+                      </div>
+              </div>
+          </div>
+          {{ end }} {{ end }}
     </div>
 </div>
+</div>
+{{ end }}
 </div>
 <!-- End Projects container -->
 
@@ -55,18 +68,18 @@
         {{ if .Params.description }}
         <div class="description">
                 {{ if .Params.etsyLink }}
-                    <div class="">
-                        <a class="etsy-link" href="{{ .Params.etsyLink }}">More Photos</a>
+                    <div class="product-link has-text-centered">
+                        <a class="etsy-link" href="{{ .Params.etsyLink }}">View More Photos</a>
                     </div>
                 {{ end }}
-                <p>{{ .Params.description }}</p>
+                <p>{{ safeHTML .Params.description }}</p>
             </div>
         {{ end }}
 
         {{ if .Params.etsyLink }}
 
             <div class="has-text-centered">
-                <a class="buy-btn button is-primary is-outlined" href="{{ .Params.etsyLink }}">Purchase</a>
+                <a class="buy-btn button is-primary" href="{{ .Params.etsyLink }}">Purchase on Esty</a>
             </div>
         {{ end }}
 

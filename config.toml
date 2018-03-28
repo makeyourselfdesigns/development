@@ -8,6 +8,11 @@ canonifyurls        = true                          # Turns relative urls into a
 # disqusshortname   = "xxx"                         # Enable Disqus for comments
 # googleAnalytics   = "xxx"
 
+preserveTaxonomyName = true
+
+[taxonomies]
+    category = "categories"
+
 [params]
     bloghead        = "MYD Blog"                        # Full name shows on blog post pages
     companyname       = "Make Yourself Designs"                # First name shows in introduction on main page
@@ -24,7 +29,7 @@ canonifyurls        = true                          # Turns relative urls into a
     description     = "Make Yourself Designs creates high quality handmade bags.  I use unique, vibrant, and fun fabric for all of my products.   "         # Max 160 characters show in search results
     faviconfile     = "img/fav.ico"
     highlightjs     = false                          # Syntax highlighting
-    footertext      = "Make Yourself Designs - Site created by Chris LaBarge"                            # Text to show in footer (overrides default text)
+    footertext      = "Make Yourself Designs"                            # Text to show in footer (overrides default text)
     fadein          = true                          # Turn on/off the fade-in effect
 
     showblog            = true                      # Show Blog section on home page
@@ -36,10 +41,10 @@ canonifyurls        = true                          # Turns relative urls into a
     sharebuttons        = true                      # On post pages, show share this social buttons
 
     # Share buttons
-    sharetwitter        = true
-    sharefacebook       = true
+    sharetwitter        = false
     sharepinterest      = true
-    sharegoogleplus     = true
+    sharefacebook       = true
+    sharegoogleplus     = false
 
 # Social icons appear in introduction and contact section. Add as many more as you like.
 # Find icon names here: http://fontawesome.io/cheatsheet/
@@ -55,4 +60,3 @@ canonifyurls        = true                          # Turns relative urls into a
 [[params.social]]
     url = "https://instagram.com/makeyourselfdesigns"
     icon = "instagram"
-

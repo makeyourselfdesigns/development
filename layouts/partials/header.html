@@ -46,10 +46,11 @@ src="https://code.jquery.com/jquery-3.2.1.min.js"
 integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
 crossorigin="anonymous"></script>
 
+<script src="{{ .Site.BaseURL }}js/custom.js" charset="utf-8">
+</script>
 <!-- Fonts and icon CSS -->
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans">
-
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
 {{ if .Site.Params.cachebuster }}
 
     {{ $t := now.Unix }}

@@ -8,7 +8,7 @@
 
 {{ partial "header.html" . }}
 
-<div class="section" id="top"> <!-- Where all the awesome begins -->
+<div class="section no-padding" id="top"> <!-- Where all the awesome begins -->
 
 <div class="hero is-{{ .Site.Params.introheight }}">
 <!-- Possible hero-head not used -->
@@ -34,12 +34,12 @@
     <div class="hero-foot {{ if .Site.Params.fadein }}fade-in three{{ end }}">
     <hr>
     <nav class="nav-center">
-        <a class="nav-item" href="#about">About</a>
+        <a class="nav-item" href="/about">About</a>
         {{ if .Site.Params.showprojects }}
-            <a class="nav-item" href="#store">Store</a>
+            <a class="nav-item" href="#store">Shop</a>
         {{ end }}
         {{ if .Site.Params.showblog }}
-        <a class="nav-item" href="#blog">Blog</a>
+        <a class="nav-item" href="/blog">Blog</a>
         {{ end }}
         <a class="nav-item" href="#contact">Contact</a>
     </nav>
@@ -54,7 +54,9 @@
 <!-- Tell them all about it! -->
 <div class="section" id="about">
     <div class="container">
-    <h2 class="title is-2 has-text-centered">About</h2>
+                {{ range .Data.Pages }}
+                    {{if eq .Params.type "introduction" }}
+      <h2 class="title is-2 has-text-centered">{{ .Title }}</h2>
 
         <div class="columns"><!-- Avatar and about.md side by side except mobile -->
             {{ if .Site.Params.avatar }}
@@ -63,13 +65,11 @@
             </div>
             {{ end }}
             <div class="column markdown">
-                {{ range .Data.Pages }}
-                    {{if eq .Title "About" }}
                             {{.Content}}
-                        {{end}}
-                    {{ end }}
             </div>
         </div>
+                        {{end}}
+        {{ end }}
     </div><!-- End About container-->
 
 <!-- <div class="container has-text-centered top-pad"><a href="#top"><i class="fa fa-arrow-up"></i></a></div> -->
@@ -77,22 +77,21 @@
 
 <div class="container"><hr></div>
 
+<!-- Let's show some blog posts -->
+    {{ if .Site.Params.showblog }}
+    <div class="section" id="blog">
+        {{ partial "blogsection.html" . }}
+    </div><!-- End Blog section -->
+
+    <div class="container"><hr></div>
+    {{ end }}
+
 
 <!-- Now for some cool projects -->
     {{ if .Site.Params.showprojects }}
     <div class="section" id="store">
         {{ partial "store.html" . }}
     </div><!-- End Projects section -->
-
-    <div class="container"><hr></div>
-    {{ end }}
-
-
-<!-- Let's show some blog posts -->
-    {{ if .Site.Params.showblog }}
-    <div class="section" id="blog">
-        {{ partial "blogsection.html" . }}
-    </div><!-- End Blog section -->
 
     <div class="container"><hr></div>
     {{ end }}

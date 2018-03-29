@@ -4,14 +4,13 @@ title = "How to Apply Liquid Lipstick"
 type = ""
 
 +++
-  
-![](https://lh4.googleusercontent.com/hvwDeJWbnzRBYMO3HqeEgFfelLU_hwyCLZU7qOUs6hvkx-FMwt3VWOqYklNCW8Pd6BZm-iC53iZlb25FF8RItL3ycFt0T61rqaQqJyHeJ73rJ6RZCHEvyM2iuz4v6HrkJjusq8o5 =257x386)
+![](https://lh4.googleusercontent.com/hvwDeJWbnzRBYMO3HqeEgFfelLU_hwyCLZU7qOUs6hvkx-FMwt3VWOqYklNCW8Pd6BZm-iC53iZlb25FF8RItL3ycFt0T61rqaQqJyHeJ73rJ6RZCHEvyM2iuz4v6HrkJjusq8o5 =257x386)![](/uploads/2018/03/29/How to Apply.png)
 
 Liquid Lipstick can be scary, it can be intimidating, and it can be challenging even for someone who wears it daily. You want to find that balance between overline and just enough without going too far out of the lines. It can get messy and that’s why i’m here to help.
 
 **First Step: Find the right Liquid Lipstick for you**
 
-Liquid Lipsticks come in a variety of finishes, while most are of the matte variety, there are also satin and glossy. 
+Liquid Lipsticks come in a variety of finishes, while most are of the matte variety, there are also satin and glossy.
 
 For Normal Lips without a lot of texture or lines, I would suggest a basic matte lipstick:
 
@@ -43,7 +42,7 @@ My Favorite is the Balm Dotcom from [Glossier for 12.00](https://www.glossier.co
 
 ![](https://lh6.googleusercontent.com/zDdlY7Zid-uLpvCD6hgJSngfUXD7iDQk1S6_SlZFH3fT76q4euAOvXvMhw2eenhpsAWZRIAgXzUxbXWqnH9Z2NFCwHEbBZB9jteN0igV6hnzGVgILRn1koadvCYbNIKH8R6EAtk4 =195x195)![](https://lh5.googleusercontent.com/cl_FBu1KkwuNj6eMa_TXitYWFGcipZZmx6UwSVn6b2VJoLYFhVzsugeS045UugBOP1gAvB2qL39_a0Gfw7C1iDVKdo719sBUeVtJXPI4VmpokD5Rq-b-DHIioPJpLTehTYcP_Wdw =196x196)
 
-This one might be the most important; Liquid lipstick has a tendency to run. Meaning that as you apply it, it can seep into the lines around your lips. It also can be streaky, needing 2-3 coats before the pigment is even across your lip. To help solve both problems, line the entire perimeter and fill your lips in completely. My favorite drugstore liner is the [NYX Retractable Liner](https://www.nyxcosmetics.com/retractable-lip-liner/NYX_051.html), pictured above. 
+This one might be the most important; Liquid lipstick has a tendency to run. Meaning that as you apply it, it can seep into the lines around your lips. It also can be streaky, needing 2-3 coats before the pigment is even across your lip. To help solve both problems, line the entire perimeter and fill your lips in completely. My favorite drugstore liner is the [NYX Retractable Liner](https://www.nyxcosmetics.com/retractable-lip-liner/NYX_051.html), pictured above.
 
 Take a look at the lips below. On the left, looking closely you can see patches of pigment and some seeping into fine lines, that is what you don’t want!! The lip on the right is lined and moisturized.
 

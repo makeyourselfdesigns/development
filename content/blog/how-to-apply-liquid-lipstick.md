@@ -14,7 +14,7 @@ Liquid Lipsticks come in a variety of finishes, while most are of the matte vari
 
 For Normal Lips without a lot of texture or lines, I would suggest a basic matte lipstick:
 
-![](https://lh3.googleusercontent.com/lanabTVry_Xd30p0slzGBBHCwK2m2KWXwTc-Egc0Vw4YJ7ZggOC_V18ydpM6e1-8D9xwTsyEocX3R3-iFmWRVh-jTECuy1gBclS11JsP9fv7WZLFVonF4bvtXFpyDul_exauyD0M =268x268)
+![](https://lh3.googleusercontent.com/lanabTVry_Xd30p0slzGBBHCwK2m2KWXwTc-Egc0Vw4YJ7ZggOC_V18ydpM6e1-8D9xwTsyEocX3R3-iFmWRVh-jTECuy1gBclS11JsP9fv7WZLFVonF4bvtXFpyDul_exauyD0M )
 
 This one is Kat Von D Everlasting Liquid Lipstick
 

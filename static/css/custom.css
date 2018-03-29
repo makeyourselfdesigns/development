@@ -113,6 +113,14 @@ p img {
     width: 100%;
     height: 100%;
   }
+
+  .section {
+    padding: 3rem 0.5rem;
+  }
+
+  .section.no-padding {
+    padding: 0;
+  }
 }
 
 .circular {
@@ -135,9 +143,13 @@ p img {
     background-color: #00b8d4;
 }
 
+.modal-background {
+  background-color: rgba(255, 255, 255, .95);
+}
+
 .description {
-    margin-top: 20px !important;
-    margin-bottom: 20px !important;
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
 }
 
 .product-link {
@@ -145,9 +157,9 @@ p img {
 }
 
 .buy-btn {
-    height: 50px;
-    width: 150px;
-    margin-top: 20px!important;
+  height: 50px;
+  width: 150px;
+  margin-top: 20px!important;
 }
 
 #contact .markdown p {
@@ -156,10 +168,14 @@ p img {
   margin-left: auto;
 }
 
-.about .markdown p, .blog.markdown p {
+.about .markdown p, .blog.markdown p, .blog.markdown h4 {
   max-width: 740px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.blog.markdown h4 {
+  text-align: center;
 }
 
 .blog-share {

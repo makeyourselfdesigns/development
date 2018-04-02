@@ -12,13 +12,13 @@ Liquid Lipstick can be scary, it can be intimidating, and it can be challenging 
 
 Liquid Lipsticks come in a variety of finishes, while most are of the matte variety, there are also satin and glossy.
 
-For Normal Lips without a lot of texture or lines, I would suggest a basic matte lipstick:
+For **Normal Lips** without a lot of texture or lines, I would suggest a basic matte lipstick:
 
 ![](https://lh3.googleusercontent.com/lanabTVry_Xd30p0slzGBBHCwK2m2KWXwTc-Egc0Vw4YJ7ZggOC_V18ydpM6e1-8D9xwTsyEocX3R3-iFmWRVh-jTECuy1gBclS11JsP9fv7WZLFVonF4bvtXFpyDul_exauyD0M )
 
 This one is Kat Von D Everlasting Liquid Lipstick
 
-For Dry Lips with texture
+For **Dry Lips** with texture, I would look into a liquid lipstick with more of a satin finish that wont cling to dry areas and will set with a sheen to it to hide texture.
 
 ![](https://lh3.googleusercontent.com/I1ibyPbJybFuA3JswW8IGPf4ITqWUkK_1K3pv0uJcuzwF0KlrucXqkH4ihKgCnAN3YgXdzSQcgvhyW0aXrqDytwRP_3V5H2iXpbaSD0vAbyNB6XnansauA4EbcBnTCsW37v1EW4D)
 

@@ -1,0 +1,101 @@
+<div class="container">
+    <!-- Begin Projects container -->
+    <div class="store-header">
+        <h2 class="title is-2 has-text-centered">Shop</h2>
+        <hr>
+          <nav class="nav-center has-text-centred" id="store-categories">
+            {{ range $name, $taxonomy := .Site.Taxonomies.categories.ByCount }}
+              <a class="nav-item" href="#{{ .Term }}">{{ .Term | humanize | title  }}</a>
+            {{ end }}
+          </nav>
+        <hr>
+    </div>
+    {{ range $, $taxonomy := .Site.Taxonomies.categories.ByCount }}
+    <div id="{{ .Term }}">
+      <h3 class="title has-text-centered">{{ .Term | humanize | title  }}</h3>
+      <div class="products">
+      <div class="masonry">
+          {{ range sort $taxonomy.Pages }} {{ if eq .Section "products" }}
+              <!-- Hey Vicky, show half column if number is even. -->
+              <div class="item product">
+                              <a {{ if .Params.external_link }}
+                                  href="{{ .Params.external_link }}"
+                                  {{ else }}
+                                  id="project{{.Title | urlize}}"
+                                  {{ end }}>
+                                  <img src="{{ if .Params.image }}{{ .Params.image }}{{ else }}{{ .Site.Params.placeholderimg }}{{ end }}">
+                              </a>
+                      <div class="content">
+                              <a class="price" {{ if .Params.external_link }}
+                                  href="{{ .Params.external_link }}"
+                                  {{ else }}
+                                  id="project{{.Title | urlize}}"
+                                  {{ end }}>
+                                  {{ .Params.price }}
+                              </a>
+                      </div>
+              </div>
+          {{ end }} {{ end }}
+    </div>
+</div>
+</div>
+{{ end }}
+</div>
+<!-- End Projects container -->
+
+<!-- Projects modals -->
+{{ range sort .Pages }} {{ if eq .Section "products" }}
+<div class="modal" id="modal{{.Title | urlize}}">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+        {{ with .Title }}
+        <header class="modal-card-header bottom-pad">
+            <p class="modal-card-title has-text-centered">{{ . }}</p>
+        </header>
+        {{ end }}
+        {{ if .Params.image }}
+            <img src="{{ .Params.image }}" class="img-responsive img-centered">
+        {{ end }}
+
+        {{ if .Params.description }}
+        <div class="description">
+                {{ if .Params.etsyLink }}
+                    <div class="product-link has-text-centered">
+                        <a class="etsy-link" href="{{ .Params.etsyLink }}">View More Photos</a>
+                    </div>
+                {{ end }}
+                <p>{{ safeHTML .Params.description }}</p>
+            </div>
+        {{ end }}
+
+        {{ if .Params.etsyLink }}
+
+            <div class="has-text-centered">
+                <a class="buy-btn button is-primary" href="{{ .Params.etsyLink }}">Purchase on Esty</a>
+            </div>
+        {{ end }}
+
+        {{ if .Content }}
+        <section class="modal-card-body markdown">
+            {{ .Content }}
+        </section>
+        {{ end }}
+    </div>
+    <button class="modal-close is-large" aria-label="close" id="close{{.Title | urlize}}"></button>
+</div>
+<script>
+    $('#project{{.Title | urlize}}').click(function() {
+        $('#modal{{.Title | urlize}}').addClass('is-active');
+    });
+    $('#close{{.Title | urlize}}').click(function() {
+        $('#modal{{.Title | urlize}}').removeClass('is-active');
+    });
+</script>
+{{ end }} {{ end }}
+
+
+<!-- <div class="container has-text-centered top-pad">
+    <a href="#top">
+        <i class="fa fa-arrow-up"></i>
+    </a>
+</div> -->

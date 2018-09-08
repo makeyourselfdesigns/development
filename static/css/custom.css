@@ -43,6 +43,10 @@ p img {
  margin-top: 0px;
 }
 
+.product .content {
+  text-align: center;
+}
+
 .price::before {
   content: "$"
 }
@@ -131,6 +135,14 @@ p img {
     margin-right: 15px;
 }
 
+.button:hover, .button:hover {
+  transform: scale(1.15);
+}
+
+.social-icons a.circular i.fa:hover {
+  transform: scale(1.15);
+}
+
 .social-icons a.circular i.fa {
     display: inline-block;
     border-radius: 60px;
@@ -145,6 +157,10 @@ p img {
 
 .modal-background {
   background-color: rgba(255, 255, 255, .95);
+}
+
+.modal-card {
+  overflow: auto;
 }
 
 .description {
@@ -187,3 +203,57 @@ p img {
   font-size: 32px;
   padding-left: 11px;
 }
+
+/* Box-sizing reset: http://w3bits.com/?p=3225 */
+.products {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* The Masonry Container */
+.masonry {
+  margin: 1.5em auto;
+  max-width: 1200px;
+  column-gap: 1.5em;
+}
+
+/* The Masonry Brick */
+.masonry .item {
+  background: #fff;
+  padding: 1em;
+  margin: 0 0 1.5em;
+}
+
+/* Masonry on large screens */
+@media only screen and (min-width: 1024px) {
+  .masonry {
+    column-count: 4;
+  }
+}
+
+/* Masonry on medium-sized screens */
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+  .masonry {
+    column-count: 3;
+  }
+}
+
+/* Masonry on small screens */
+@media only screen and (max-width: 767px) {
+  .masonry {
+    column-count: 2;
+    margin: 0 0 1.0em
+  }
+
+  .masonry .item {
+    background: #fff;
+    padding: 1em;
+    margin: 0 0 1.0em;
+  }
+}
+

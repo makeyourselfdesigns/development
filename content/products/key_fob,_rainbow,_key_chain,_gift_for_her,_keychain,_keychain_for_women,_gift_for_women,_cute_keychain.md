@@ -1,7 +1,7 @@
 ---
 id: '633625737'
 title: 'Key Fob, Rainbow, Key Chain, Gift for Her, Keychain, Keychain for Women, Gift for Women, Cute Keychain'
-date: '2018-09-02 22:26:36 -0400'
+date: '2018-09-08 14:33:47 -0400'
 description: 'KeyFobs are perfect for keeping track of your keys while grocery shopping, going to the gym, or running errands. These Keychains easily stand out in your purse in super fun and cute fabrics-  accessories like these make a awesome gifts for teachers, coworkers, neighbors and friends!!
 
 This durable fabric lanyard is made with 100% Cotton Materials, sturdy interfacing, and silver hardware. Pattern of the fabric will vary with each Key Fob- no two are identical.

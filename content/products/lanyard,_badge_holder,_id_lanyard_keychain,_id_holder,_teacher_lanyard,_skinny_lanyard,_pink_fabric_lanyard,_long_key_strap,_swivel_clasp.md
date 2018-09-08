@@ -1,7 +1,7 @@
 ---
 id: '627857485'
 title: 'Lanyard, Badge Holder, ID lanyard Keychain, ID holder, Teacher Lanyard, Skinny Lanyard, Pink Fabric Lanyard, Long Key Strap, Swivel Clasp'
-date: '2018-09-02 22:26:38 -0400'
+date: '2018-09-08 14:34:07 -0400'
 description: 'This Lanyard is designed to be both functional and stylish when at work or on the go while it keeps your important belongings safe. A long lanyard is perfect for those who carry a big bag and can never seem to find their keys, or for someone who needs to carry their ID in the office. These can be worn all day with comfort, as each lanyard is made with lightweight yet durable pink cotton fabric. 
 
 Silver swivel clasp hardware at the bottom allows for a simple switch of work badge to house keys that will carry over from day to night use. The bright printed pink marble swirl fabric & long length make it helpful find to find your belongings in any bag. Included with each lanyard is a super cute black mini tassel, and a free 1&quot; key ring to get you started. Handmade with experience, and a standard for high quality.  

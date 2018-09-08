@@ -1,7 +1,7 @@
 ---
 id: '622974130'
 title: 'Minimalist Wallet Green, Marble Print, Vegan Wallet, Keychain Wallet, Business Card Holder, Wallet Women, Travel Wallet, Coin Purse, Wallet'
-date: '2018-09-02 22:26:35 -0400'
+date: '2018-09-08 14:33:55 -0400'
 description: 'Keychain Wallets are the perfect minimalist accessory for keeping track of your keys, money and valuables while grocery shopping, going to the gym, or running errands. Available in super fun and cute fabrics- they also make an awesome gift for coworkers, neighbors and friends!!
 
 This durable fabric card holder is made with:
@@ -22,7 +22,7 @@ Visit my Etsy Shop for more cute accessories:
 https://www.etsy.com/shop/makeyourselfdesigns'
 etsyLink: 'https://www.etsy.com/listing/622974130/minimalist-wallet-green-marble-print?utm_source=synctostaticsite&utm_medium=api&utm_campaign=api'
 price: '12.50'
-image: 'img/il_570xN.1638675441_gkhk.jpg'
+image: 'img/il_570xN.1658887435_53ie.jpg'
 categories: '["Keychain Wallet"]'
 weight: '2'
 ---

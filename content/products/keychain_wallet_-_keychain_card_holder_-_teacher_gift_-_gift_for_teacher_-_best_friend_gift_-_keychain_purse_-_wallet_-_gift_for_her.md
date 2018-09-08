@@ -1,16 +1,28 @@
 ---
 id: '596097158'
 title: 'Keychain Wallet - Keychain Card Holder - Teacher Gift - Gift for Teacher - Best Friend Gift - Keychain Purse - Wallet - Gift for Her'
-date: '2018-05-29 14:07:44 -0400'
-description: 'This versatile keychain is perfect for carrying cards, ID&#39;s and money while conveniently keeping your keys attached. Available in many super cute prints. Cotton interior and exterior. Durable and lightweight.
+date: '2018-09-08 14:33:57 -0400'
+description: 'Keychain Card Holders are the perfect accessory for keeping track of your keys, money and valueables while grocery shopping, going to the gym, or running errands. Available in super fun and cute fabrics- they also make an awesome gift for coworkers, neighbors and friends!!
 
-4&quot; height
-5 1/2&quot; length
+This durable fabric card holder is made with:
+•100% Cotton Materials
+•Sturdy interfacing
+•Silver hardware
+•1 inch Key Ring Included
+•Mini Tassel attached to zipper for cuteness & ease
+•4&quot; height
+•5 1/2&quot; length
 
-Each comes with a White mini tassel!!'
+Pattern placement on the fabric will vary with each bag- no two are identical.
+
+Click below to see more prints of our Keychain Wallets:
+https://www.etsy.com/shop/MakeYourselfDesigns?ref=l2-shopheader-name&section_id=22839079
+
+Visit my Etsy Shop for more cute accessories:
+https://www.etsy.com/shop/makeyourselfdesigns'
 etsyLink: 'https://www.etsy.com/listing/596097158/keychain-wallet-keychain-card-holder?utm_source=synctostaticsite&utm_medium=api&utm_campaign=api'
-price: '14.00'
-image: 'img/il_570xN.1546520967_3s8u.jpg'
+price: '12.50'
+image: 'img/il_570xN.1569131838_g86f.jpg'
 categories: '["Keychain Wallet"]'
 weight: '2'
 ---

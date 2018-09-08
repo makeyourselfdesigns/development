@@ -1,7 +1,7 @@
 ---
 id: '278698858'
 title: 'Makeup bag, cosmetic bag, teacher gift, gift for teacher, pencil pouch'
-date: '2018-05-29 14:07:44 -0400'
+date: '2018-09-08 14:33:54 -0400'
 description: 'Perfect pouch for your makeup on the go. Makes a wonderful gift!
 
 Dimensions:

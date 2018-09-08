@@ -1,7 +1,7 @@
 ---
 id: '623965678'
 title: 'Black Wristlet Keychain, Girly Keychain, Key Fob Wristlet, Keyfob, Girly Gift, Key Wristlet, Keychain Wristlet, best friend gift, Keychain'
-date: '2018-09-02 22:26:27 -0400'
+date: '2018-09-08 14:33:45 -0400'
 description: '*Listing is for ONE Keychain Wristlet- Please select the pattern you&#39;d like before purchase*
 
 Keychain Wristlets are perfect for keeping track of your keys while grocery shopping, going to the gym, or running errands. Available in super fun and cute fabrics- they also make an awesome gift for teachers, coworkers, neighbors and friends!!

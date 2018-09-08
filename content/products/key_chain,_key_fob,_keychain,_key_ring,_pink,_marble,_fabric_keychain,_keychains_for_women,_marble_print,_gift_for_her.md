@@ -1,7 +1,7 @@
 ---
 id: '633629039'
 title: 'Key Chain, Key Fob, Keychain, Key Ring, Pink, Marble, Fabric Keychain, Keychains for Women, Marble Print, Gift for Her'
-date: '2018-09-02 22:26:37 -0400'
+date: '2018-09-08 14:34:00 -0400'
 description: 'KeyFobs are perfect for keeping track of your keys while grocery shopping, going to the gym, or running errands. These Keychains easily stand out in your purse in super fun and cute fabrics-  accessories like these make a awesome gifts for teachers, coworkers, neighbors and friends!!
 
 This durable fabric lanyard is made with 100% Cotton Materials, sturdy interfacing, and silver hardware. Pattern of the fabric will vary with each Key Fob- no two are identical.

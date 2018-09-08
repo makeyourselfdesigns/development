@@ -1,7 +1,7 @@
 ---
 id: '638559179'
 title: 'Pink Marble Minimalist Wallet, Slim Wallet,  Business Card Case, Travel Wallet, Vegan Wallet, Small Wallet, Card Wallet, Credit Card Holder'
-date: '2018-09-02 22:26:30 -0400'
+date: '2018-09-08 14:33:50 -0400'
 description: 'This Minimalist Wallet makes your life easier with its slim design, making it easy to keep a wallet in your pocket. Functioning as a regular wallet, it easily holds your frequently used cards, IDs, business cards, and some folded bills. Perfect to take on a night out or to travel with to keep your personal information safe. Practical to run errands with, as it stays on your body when you need it.
 
 Features:

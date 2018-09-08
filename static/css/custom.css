@@ -8,7 +8,7 @@ p, .markdown {
 }
 
 .markdown p {
-  margin-bottom: 1.4em;
+  margin-bottom: 1.6em;
 }
 
 p img {
@@ -45,6 +45,10 @@ p img {
 
 .product .content {
   text-align: center;
+}
+
+a.product {
+  display: inline-block;
 }
 
 .price::before {
@@ -135,7 +139,7 @@ p img {
     margin-right: 15px;
 }
 
-.button:hover, .button:hover {
+.button:hover, .button:hover, .nav-item:hover  {
   transform: scale(1.15);
 }
 
@@ -194,6 +198,15 @@ p img {
   text-align: center;
 }
 
+.blog p, .markdown p, .markdown {
+  line-height: 2em;
+  font-size: 19px;
+}
+
+.blog p strong {
+  font-size: 1.5em;
+}
+
 .blog-share {
   line-height: 30px;
   margin-top: 10px;
@@ -204,9 +217,18 @@ p img {
   padding-left: 11px;
 }
 
+.post-item {
+  font-size: 1.3em;
+  margin-bottom: 10px;
+}
+
 /* Box-sizing reset: http://w3bits.com/?p=3225 */
 .products {
   box-sizing: border-box;
+}
+
+.product .content {
+  color: #00b8d4
 }
 
 *,
@@ -218,7 +240,7 @@ p img {
 /* The Masonry Container */
 .masonry {
   margin: 1.5em auto;
-  max-width: 1200px;
+  max-width: 1000px;
   column-gap: 1.5em;
 }
 
@@ -229,10 +251,22 @@ p img {
   margin: 0 0 1.5em;
 }
 
+#store .title {
+   margin: 3.0rem 0;
+}
+
+#footer {
+  font-size: 2em;
+}
+
+.nav-item {
+  font-size: 1.3em;
+}
+
 /* Masonry on large screens */
 @media only screen and (min-width: 1024px) {
   .masonry {
-    column-count: 4;
+    column-count: 3;
   }
 }
 
@@ -257,3 +291,15 @@ p img {
   }
 }
 
+@media only screen and (min-width: 680px) {
+  .store-header .nav-center {
+    /* column-count: 2; */
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 100px;
+    -moz-column-width: 100px;
+    column-width: 100px;
+    display: block;
+  }
+}

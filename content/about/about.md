@@ -2,8 +2,6 @@
 title: "Story"
 date: 2017-03-09T13:19:25+08:00
 ---
-MYD was founded when I (Jess) woke up and realized my 9-5 lackluster call job wasn't fulfilling. I was longing for creativity, desperate to make something....anything! I had tried doing beauty reviews on Instagram, but even that wasn't enough.
+Make Yourself Designs was founded on the idea that every day is a new beginning to Make Yourself into the best version of you possible. Whether it is spending an hour dedicated to self care and organization, keeping your vanity looking cute and on trend, or making your life more effortless with a simple keychain. I strive to make this business as fun, cute and personal as I possibly can. Four years ago when MYD was born, I was bored of working for someone, longing to express my creativity, and desperate to feel more fulfilled. My mothers hobby was always sewing and making clothes for me and my doll; I would follow her to craft shows and watch her sell goods. Reflecting on that inspired me to teach myself how to sew. Each product is handmade and crafted with the absolute highest quality standards, it is something I pride myself on. I carefully test each new idea for durability and practicality. Nothing makes me happier than helping people and producing goods that make their lives easier.
 
-I knew I needed to do something big, so I bought a sewing machine and began to teach myself the craft. Once I made my first makeup bag I was beaming from head to toe (even though it had a hole in the side), I thought it was the most imperfect/perfect bag I've laid eyes on. The thrill of this kept me at my sewing machine for weeks practicing and perfecting the art of sewing these bags (i'm still learning!).
-
-I quit my 9-5 and settled for part-time work because this passion that I have for owning my own business is the best feeling of accomplishment I've ever felt! MYD is new, but it is growing, and I am constantly learning and applying knowledge to my brand every day. I hope you enjoy looking at my bags and maybe even fall in love with one yourself! :)
+I hope you enjoy browsing my shop!

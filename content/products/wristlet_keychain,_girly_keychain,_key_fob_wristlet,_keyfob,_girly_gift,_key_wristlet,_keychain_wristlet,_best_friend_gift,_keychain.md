@@ -1,7 +1,7 @@
 ---
-id: '625868103'
+id: '602898238'
 title: 'Wristlet Keychain, Girly Keychain, Key Fob Wristlet, Keyfob, Girly Gift, Key Wristlet, Keychain Wristlet, best friend gift, Keychain'
-date: '2018-09-02 22:26:34 -0400'
+date: '2018-09-08 14:34:00 -0400'
 description: 'Keychain Wristlets are perfect for keeping track of your keys while grocery shopping, going to the gym, or running errands. Available in super fun and cute fabrics- they also make an awesome gift for teachers, coworkers, neighbors and friends!!
 
 This durable fabric lanyard is made with 100% Cotton Materials, sturdy interfacing, and silver hardware. Pattern of the fabric will vary with each Key Fob- no two are identical.
@@ -20,9 +20,9 @@ https://www.etsy.com/shop/makeyourselfdesigns?section_id=23707872
 
 Item length: 5&quot;
 Width: 1&quot;'
-etsyLink: 'https://www.etsy.com/listing/625868103/wristlet-keychain-girly-keychain-key-fob?utm_source=synctostaticsite&utm_medium=api&utm_campaign=api'
+etsyLink: 'https://www.etsy.com/listing/602898238/wristlet-keychain-girly-keychain-key-fob?utm_source=synctostaticsite&utm_medium=api&utm_campaign=api'
 price: '8.50'
-image: 'img/il_570xN.1569114674_8mbc.jpg'
+image: 'img/il_570xN.1624959577_iu7q.jpg'
 categories: '["Key Fobs"]'
 weight: '2'
 ---

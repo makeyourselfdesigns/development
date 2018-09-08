@@ -1,7 +1,7 @@
 ---
 id: '624617838'
 title: 'Polka dot Pencil case, Pencil Bag, Pencil Bag, Zipper Pouch, School Supplies, Back to school, Makeup Brush Bag, Organizer Bag, coworker gift'
-date: '2018-09-02 22:26:32 -0400'
+date: '2018-09-08 14:33:52 -0400'
 description: 'This is a classic carry-all style pencil pouch for whatever you need to conveniently keep in once space. It is great for pencils, Markers, Art Supplies, Makeup, Headphones, Cords and More. Great size to organize your purse or carry for travel. 
 
 Features:

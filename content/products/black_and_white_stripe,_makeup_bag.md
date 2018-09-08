@@ -1,7 +1,7 @@
 ---
 id: '572540275'
 title: 'Black and White Stripe, Makeup Bag'
-date: '2018-03-24 13:16:19 -0400'
+date: '2018-09-08 14:34:07 -0400'
 description: 'This boxy makeup bag is perfect storage for your vanity, or bathroom sink. It has a lot of room to store everything from makeup palettes, brushes, to your everyday essentials. Great for travel, lined with sturdy interfacing and handle attached to the side.
 
 Lined with ProSoft® Food Safe Waterproof PUL Fabric to wipe clean during use. 

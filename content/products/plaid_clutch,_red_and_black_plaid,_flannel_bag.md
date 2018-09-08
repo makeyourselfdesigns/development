@@ -1,7 +1,7 @@
 ---
 id: '498327451'
 title: 'Plaid clutch, red and black plaid, flannel bag'
-date: '2018-03-24 13:16:10 -0400'
+date: '2018-09-08 14:34:06 -0400'
 description: 'This plaid clutch bag is made with very soft black and red flannel. Perfect bag to compliment an outfit on a night out, or for day time shopping. 
 
 Measurements: 

@@ -1,7 +1,7 @@
 ---
 id: '619320946'
 title: 'Keychain wristlet, Wristlet, Key Fob, Wristlet Keychain, Key Wristlet, Best Friend Gift, Girly Keychain, Key Fob Wristlet, Keychain Key Ring'
-date: '2018-09-02 22:26:38 -0400'
+date: '2018-09-08 14:33:45 -0400'
 description: 'Keychain Wristlets are perfect for keeping track of your keys while grocery shopping, going to the gym, or running errands. Available in super fun and cute fabrics- they also make an awesome gift for teachers, coworkers, neighbors and friends!!
 
 This durable fabric lanyard is made with 100% Cotton Materials, sturdy interfacing, and silver hardware. Pattern of the fabric will vary with each Key Fob- no two are identical.

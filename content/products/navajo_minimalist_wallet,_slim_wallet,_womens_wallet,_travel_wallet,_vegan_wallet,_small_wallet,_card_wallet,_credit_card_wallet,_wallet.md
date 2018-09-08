@@ -1,7 +1,7 @@
 ---
 id: '624976126'
 title: 'Navajo Minimalist Wallet, Slim Wallet, Womens Wallet, Travel Wallet, Vegan Wallet, Small Wallet, Card Wallet, Credit Card Wallet, Wallet'
-date: '2018-09-02 22:26:31 -0400'
+date: '2018-09-08 14:33:52 -0400'
 description: 'This Minimalist Wallet makes your life easier with its slim design, making it easy to keep a wallet in your pocket. Functioning as a regular wallet, it easily holds your frequently used cards, IDs, business cards, and some folded bills. Perfect to take on a night out or to travel with to keep your personal information safe. Practical to run errands with, as it stays on your body when you need it.
 
 Features:
@@ -20,7 +20,7 @@ www.etsy.com/shop/makeyourselfdesigns
 Interested in a custom order? Send me a message!'
 etsyLink: 'https://www.etsy.com/listing/624976126/navajo-minimalist-wallet-slim-wallet?utm_source=synctostaticsite&utm_medium=api&utm_campaign=api'
 price: '11.50'
-image: 'img/il_570xN.1599121298_2u8n.jpg'
+image: 'img/il_570xN.1599121646_stl2.jpg'
 categories: '["Card Wallet"]'
 weight: '2'
 ---

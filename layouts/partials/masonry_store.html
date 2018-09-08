@@ -17,23 +17,19 @@
       <div class="masonry">
           {{ range sort $taxonomy.Pages }} {{ if eq .Section "products" }}
               <!-- Hey Vicky, show half column if number is even. -->
-              <div class="item product">
-                              <a {{ if .Params.external_link }}
+              <div class="item">
+                              <a class="product"{{ if .Params.external_link }}
                                   href="{{ .Params.external_link }}"
                                   {{ else }}
                                   id="project{{.Title | urlize}}"
                                   {{ end }}>
                                   <img src="{{ if .Params.image }}{{ .Params.image }}{{ else }}{{ .Site.Params.placeholderimg }}{{ end }}">
+                                <div class="content">
+                                        <span class="price" id="project{{.Title | urlize}}">
+                                            {{ .Params.price }}
+                                        </span>
+                                </div>
                               </a>
-                      <div class="content">
-                              <a class="price" {{ if .Params.external_link }}
-                                  href="{{ .Params.external_link }}"
-                                  {{ else }}
-                                  id="project{{.Title | urlize}}"
-                                  {{ end }}>
-                                  {{ .Params.price }}
-                              </a>
-                      </div>
               </div>
           {{ end }} {{ end }}
     </div>

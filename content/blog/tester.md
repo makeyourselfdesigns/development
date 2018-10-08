@@ -8,7 +8,7 @@ type = ""
 
 ![](/uploads/2018/10/08/work_ready_morning_routine.png)
 
-Getting ready to go out with friends is one of my **favorite** activities; looking cute, doing my makeup, the whole thing. However, getting ready for work or school? This is one of my _least_ favorite because if you’re like me, you’re constantly checking your clock to make sure you have time for x y and z. If you’re tired of racing out the door, keep reading because I am going to show you some easy things to incorporate into your routine that will help you get ready for work in 30 minutes or less.
+Getting ready to go out with friends is one of my favorite activities; looking cute, doing my makeup, the whole thing. However, getting ready for work or school? This is one of my _least_ favorite because if you’re like me, you’re constantly checking your clock to make sure you have time for x y and z. If you’re tired of racing out the door, keep reading because I am going to show you some easy things to incorporate into your routine that will help you get ready for work in 30 minutes or less.
 
 ### **1. Set your alarm for a reasonable time**
 
@@ -40,7 +40,7 @@ Keep your keys and Wallet in the same spot so you can grab and go in the morning
 
 This can be a granola bar, oatmeal packet and a travel bowl, a banana. It's really up to you and what you prefer, but have it ready to go. I totally love these overnight oat recipes I find on Pinterest
 
-### **7. Just Plan Ahead!**
+### **8. Just Plan Ahead!**
 
 All of these tips and tricks are easy to implement and will get you out of the house in 30 minutes or less if you take the time to plan ahead. A good morning can really help you accomplish more during the day, so set yourself up for success!
 

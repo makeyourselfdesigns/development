@@ -5,7 +5,6 @@ title = "TESTER"
 type = ""
 
 +++
-
 ![](/uploads/2018/10/08/work_ready_morning_routine.png)
 
 Getting ready to go out with friends is one of my favorite activities; looking cute, doing my makeup, the whole thing. However, getting ready for work or school? This is one of my _least_ favorite because if you’re like me, you’re constantly checking your clock to make sure you have time for x y and z. If you’re tired of racing out the door, keep reading because I am going to show you some easy things to incorporate into your routine that will help you get ready for work in 30 minutes or less.
@@ -44,4 +43,4 @@ This can be a granola bar, oatmeal packet and a travel bowl, a banana. It's real
 
 All of these tips and tricks are easy to implement and will get you out of the house in 30 minutes or less if you take the time to plan ahead. A good morning can really help you accomplish more during the day, so set yourself up for success!
 
-Ready to take on Monday Morning? Click HERE to grab your FREE Morning Prep Checklist to get you out the door quick and easy.
+Ready to take on Monday Morning? [Click HERE]() to grab your FREE Morning Prep Checklist to get you out the door quick and easy.

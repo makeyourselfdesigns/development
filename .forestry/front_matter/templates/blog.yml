@@ -1,5 +1,7 @@
 ---
+label: blog
 hide_body: false
+is_partial: false
 fields:
 - name: title
   label: Title
@@ -21,3 +23,7 @@ fields:
   type: boolean
   hidden: false
   default: true
+pages:
+- content/blog/how-to-get-ready-for-work-in-30-minutes-or-less.md
+- content/blog/how-to-apply-liquid-lipstick.md
+- content/blog/best-drugstore-lipsticks.md

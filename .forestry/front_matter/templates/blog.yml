@@ -24,6 +24,6 @@ fields:
   hidden: false
   default: true
 pages:
-- content/blog/test.md
+- content/blog/tester.md
 - content/blog/how-to-apply-liquid-lipstick.md
 - content/blog/best-drugstore-lipsticks.md

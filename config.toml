@@ -14,7 +14,7 @@ preserveTaxonomyName = true
     category = "categories"
 
 [params]
-    bloghead        = "MYD Blog"                        # Full name shows on blog post pages
+    bloghead        = "Make Yourself Designs Blog"                        # Full name shows on blog post pages
     companyname       = "Make Yourself Designs"                # First name shows in introduction on main page
     tagline         = "High Quality Handmade Bags 💕"       # Appears after the introduction
     introheight     = "large"                       # Input either 'medium' or 'large' or 'fullheight'

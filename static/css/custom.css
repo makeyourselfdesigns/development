@@ -194,8 +194,10 @@ a.product {
   margin-left: auto;
 }
 
-.blog.markdown h4 {
+.blog.markdown h4, .blog h2, .blog h3, .blog h5 {
   text-align: center;
+  margin-bottom: 30px;
+  margin-top: 50px;
 }
 
 .blog p, .markdown p, .markdown {

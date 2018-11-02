@@ -1,4 +1,4 @@
-<li class="post-item">
-    <span><a href="{{ .Permalink }}">{{ .Title }}</a></span> - <span>{{ .Date.Format .Site.Params.dateform }}</span>
-</li>
+<div class="item">
+  <a href="{{ .Permalink }}"><span class='title'>{{ .Title }}</span></a><span class="right floated">{{ .Date.Format .Site.Params.dateform }}</span>
+</div>
 <hr>

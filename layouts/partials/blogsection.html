@@ -17,7 +17,7 @@
 
 {{ if .Site.Params.showallposts }}
 <h2 class="title is-2 has-text-centered top-pad">All Posts</h2>
-    <ul>
+    <ul class="ui list relaxed big">
     {{ range .Data.Pages.ByPublishDate }}
         {{ if eq .Section "blog" }}
             {{ partial "li.html" . }}

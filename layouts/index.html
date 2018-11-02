@@ -1,124 +1,244 @@
-<!--
-    Hey! Thanks for looking at my code! You win a cookie. :) The nice kind with chocolate chips, not the sneaky spying kind.
-
-    This page was originally created for the Personal Portfolio Webpage challenge on FreeCodeCamp's Front End Development Certification course. It's totally responsive, and the first web page I ever coded from scratch.
-
-    Enjoy, and I hope you find what you're looking for! If you have questions or want to get in touch, please do: hello@vickylai.io.
--->
-
-{{ partial "header.html" . }}
-
-<div class="section no-padding" id="top"> <!-- Where all the awesome begins -->
-
-<div class="hero is-{{ .Site.Params.introheight }}">
-<!-- Possible hero-head not used -->
-    <!-- Super sweet Hero body title -->
-    <div class="hero-body">
-        <div class="container has-text-centered">
-            <!-- Title and tagline -->
-            <h1 class="bold-title {{ if .Site.Params.fadein }}fade-in one{{ end }}">
-                {{ .Site.Params.companyname }}
-            </h1>
-            <h3 class="subtitle is-3 {{ if.Site.Params.fadein }} fade-in two{{ end }}">
-                {{ .Site.Params.tagline }}
-            </h3>
-            <!-- End title and tagline -->
-            <!-- Some social icons -->
-            <div class="{{ if .Site.Params.fadein }}fade-in three{{ end }}">
-                {{ partial "social.html" . }}
-            </div>
-            <!-- End top social icons -->
-        </div>
-    </div> <!-- Hero body title end -->
-    <!-- Hero foot has nav bar -->
-    <div class="hero-foot {{ if .Site.Params.fadein }}fade-in three{{ end }}">
-    <hr>
-    <nav class="nav-center">
-        <a class="nav-item" href="/about">About</a>
-        {{ if .Site.Params.showprojects }}
-            <a class="nav-item" href="#store">Shop</a>
-        {{ end }}
-        {{ if .Site.Params.showblog }}
-        <a class="nav-item" href="/blog">Blog</a>
-        {{ end }}
-        <a class="nav-item" href="#contact">Contact</a>
-    </nav>
-    <hr>
-    </div><!-- Done with nav bar -->
-</div><!-- Done with Hero -->
-</div><!-- End of top section -->
-
-<!-- Everything below fades in three! -->
-<div class="section no-padding {{ if .Site.Params.fadein }}fade-in three{{ end }}">
-
-<!-- Tell them all about it! -->
-
-<!-- Let's show some blog posts -->
-
-<!-- Now for some cool projects -->
-    {{ if .Site.Params.showprojects }}
-    <div class="section" id="store">
-        {{ partial "masonry_store.html" . }}
-    </div><!-- End Projects section -->
-
-    <div class="container"><hr></div>
-    {{ end }}
-
-<!-- Let's chat, shall we? -->
-<div class="section" id="contact">
-    <div class="container has-text-centered">
-    <h2 class="title is-2">Contact</h2>
-        <div class="markdown">
-            {{ range .Data.Pages }}
-                {{if eq .Title "Contact" }}
-                        {{.Content}}
-                    {{end}}
-                {{ end }}
-        </div>
-
-        {{ if .Site.Params.localtime }}
-        <p>My current local time is <span id="time"></span>.</p>
-        <script type="text/javascript" src="/js/moment.js"></script>
-        <script type="text/javascript" src="/js/moment-timezone.js"></script>
-        <script type="text/javascript" src="/js/moment-timezone-with-data-2012-2022.js"></script>
-
-        <script>
-        $(document).ready(function() {
-        var time = moment().tz("{{ .Site.Params.timezone }}").format("h:mm A");
-        $('#time').html(time);
-        })
-        </script>
-        {{ end }}
-
-        {{ if .Site.Params.email }}
-        <h3 class="subtitle is-3 has-text-centered top-pad"><a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a></h3>
-        {{ end }}
-
-        {{ partial "social.html" . }}
-    </div><!-- End Contact container -->
-
-	<!-- <div class="container has-text-centered top-pad"><a href="#top"><i class="fa fa-arrow-up"></i></a></div> -->
-</div><!-- End Contact section -->
-
-<div class="container"><hr></div>
-
-
-<!-- Nice clean finish -->
-{{ partial "footer.html" . }}
-<!-- Footer done! -->
-</div><!-- End of fade in three section -->
-<!-- Where all the awesome ends. Aww. -->
-
-<!-- Bitty scrolling links script -->
+<html>
+<head>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'>
+<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0' name='viewport'>
+<link href='/css/semantic.min.css' rel='stylesheet' type='text/css'>
+<link href='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/components/icon.min.css' rel='stylesheet' type='text/css'>
+<link href='/css/custom.css' rel='stylesheet' type='text/css'>
+<script crossorigin='anonymous' integrity='sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=' src='https://code.jquery.com/jquery-3.3.1.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/components/dropdown.min.js' type='text/javascript'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/components/popup.min.js' type='text/javascript'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/components/transition.min.js' type='text/javascript'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/components/sidebar.min.js' type='text/javascript'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/components/dimmer.min.js' type='text/javascript'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/components/api.min.js' type='text/javascript'></script>
+<script src='https://unpkg.com/stimulus/dist/stimulus.umd.js'></script>
+{{ template "_internal/google_analytics_async.html" . }}
 <script>
-$('a[href^="#"]').click(function(e) {
-    e.preventDefault();
-    var target = this.hash;
-    $('html, body').animate({
-    scrollTop: $(target).offset().top
-    }, 500);
-    return false;
-})
-</script>
+  (() => {
+    const application = Stimulus.Application.start()
 
+    application.register("slideshow", class extends Stimulus.Controller {
+      static get targets() {
+        return [ "slide" ]
+      }
+
+      initialize() {
+        this.showCurrentSlide()
+      }
+
+      connect() {
+        this.startTimer()
+      }
+
+      next() {
+        const currentSlide = this.visibleSlide();
+        this.stopTimer()
+
+        if ( this.index === this.slideTargets.length - 1) {
+          this.index = 0
+        } else {
+          this.index++
+        }
+
+        this.fadeSlides(currentSlide, this.visibleSlide())
+        this.startTimer();
+      }
+
+      startTimer() {
+        this.timer = setInterval(() => {
+          const currentSlide = this.visibleSlide();
+          if ( this.index === this.slideTargets.length - 1) {
+            this.index = 0
+          } else {
+            this.index++
+          }
+
+          this.fadeSlides(currentSlide, this.visibleSlide())
+        }, 5000)
+      }
+
+      stopTimer() {
+        clearInterval(this.timer)
+      }
+
+      previous() {
+        const currentSlide = this.visibleSlide();
+        this.stopTimer()
+
+        if ( this.index === 0 ) {
+          this.index = this.slideTargets.length - 1
+        } else {
+          this.index--
+        }
+
+        this.fadeSlides(currentSlide, this.visibleSlide())
+        this.startTimer();
+      }
+
+      disableControls() {
+        $('.controls button').prop("disabled", true);
+      }
+
+      enableControls() {
+        $('.controls button').prop("disabled", false);
+      }
+
+      visibleSlide() {
+        return this.slideTargets[this.index]
+      }
+
+      fadeSlides(current, next){
+        this.disableControls()
+        var stimulus = this
+        $(current).fadeOut('slow', function() {
+          this.classList.toggle('slide--current');
+          $(next).fadeIn('slow', stimulus.enableControls);
+          next.classList.toggle('slide--current');
+        })
+      }
+
+      showCurrentSlide() {
+        this.slideTargets.forEach((el, i) => {
+           el.classList.toggle('slide--current', this.index == i)
+          if (this.index == i) {
+          }
+        })
+      }
+
+      get index() {
+        return parseInt(this.data.get("index"))
+      }
+
+      set index(value) {
+        this.data.set('index', value)
+        //.this.showCurrentSlide()
+      }
+
+      set timer(value) {
+         this.data.set('timer', value)
+      }
+
+      get timer() {
+        return this.data.get("timer")
+      }
+      // …
+    })
+
+  })()
+</script>
+<title>
+Task Helper
+</title>
+<meta content='display_description' name='description'>
+</head>
+<body>
+  {{ partial "nav.html" }}
+<main class='ui container'>
+<h1 class='ui header'>
+Make Yourself Designs
+</h1>
+<div class='ui grid'>
+<div class='row'>
+<div class='ui sixteen wide column'>
+<div class='slideshow' data-controller='slideshow' data-slideshow-index='0'>
+<div class='controls'>
+<a class='left' data-action='slideshow#previous'>
+<i class='chevron left ui icon'></i>
+</a>
+<a class='right' data-action='slideshow#next'>
+<i class='chevron right ui icon'></i>
+</a>
+</div>
+<div class='slide' data-target='slideshow.slide'>
+<a href="https://www.etsy.com/shop/MakeYourselfDesigns" target="_blank">
+<img class='ui fluid image' src='/img/keychain_wristlets.png'>
+</a>
+</div>
+<div class='slide' data-target='slideshow.slide'>
+<a href="/blog" target="_blank">
+  <img class='ui fluid image' src='/img/new_blog.png'>
+</a>
+</div>
+<div class='slide' data-target='slideshow.slide'>
+<a href="https://www.etsy.com/shop/MakeYourselfDesigns" target="_blank">
+<img class='ui fluid image' src='/img/on_go.png'>
+</a>
+</div>
+<div class='slide' data-target='slideshow.slide'>
+<a href="https://www.etsy.com/shop/MakeYourselfDesigns" target="_blank">
+<img class='ui fluid image' src='/img/classic_wristlets.png'>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='ui grid three column stackable'>
+<div class='row big-nav'>
+<div class='column center aligned'>
+<div class='content nav-img'>
+<a href='https://www.etsy.com/shop/MakeYourselfDesigns' style='display: none'></a>
+<img class='ui image fluid' src='/img/shop.png'>
+<h3>
+Shop
+</h3>
+<div class='ui dimmer'>
+<div class='content'>
+<div class='ui inverted icon header'>
+<i class='shopping bag icon'></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='column center aligned'>
+<div class='content nav-img'>
+<a href='/blog' style='display: none'></a>
+<img class='ui image fluid' src='/img/blog.png'>
+<h3>
+Blog
+</h3>
+<div class='ui dimmer'>
+<div class='content'>
+<div class='ui inverted icon header'>
+<i class='pencil alternate icon'></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='column center aligned'>
+<div class='content nav-img'>
+<a href='/about' style='display: none'></a>
+<img class='ui image fluid' src='/img/about.png'>
+<h3>
+About
+</h3>
+<div class='ui dimmer'>
+<div class='content'>
+<div class='ui inverted icon header'>
+<i class='star icon'></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+{{ partial "footer.html" }}
 </body>
+<script>
+  $('.toggle-sidebar').on('click', function() {
+    $('.ui.sidebar').sidebar('setting', 'transition', 'overlay').sidebar('toggle')
+  })
+
+  $('.nav-img').dimmer({on: 'hover'})
+  $('.nav-img').on('click', function() {
+    var path = $(this).find('a').attr('href')
+    window.location.href = path;
+  })
+</script>
+</html>
+

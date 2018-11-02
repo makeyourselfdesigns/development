@@ -1,25 +1,42 @@
-{{ partial "header.html" . }}
+<html>
+<head>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'>
+<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0' name='viewport'>
+<link href='/css/semantic.min.css' rel='stylesheet' type='text/css'>
+<link href='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/components/icon.min.css' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+<link href='/css/custom.css' rel='stylesheet' type='text/css'>
+<script crossorigin='anonymous' integrity='sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=' src='https://code.jquery.com/jquery-3.3.1.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/components/dropdown.min.js' type='text/javascript'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/components/popup.min.js' type='text/javascript'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/components/transition.min.js' type='text/javascript'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/components/sidebar.min.js' type='text/javascript'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/components/dimmer.min.js' type='text/javascript'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/components/api.min.js' type='text/javascript'></script>
+{{ template "_internal/google_analytics_async.html" . }}
+<title>
+Task Helper
+</title>
+<meta content='display_description' name='description'>
+</head>
+<body>
+  {{ partial "nav.html" }}
 
-<div class="section" id="top"><!-- Parent section -->
+<main class='ui container'>
+<h1 class='ui header'>
+Make Yourself Designs
+</h1>
 
-    <div class="container hero {{ if .Site.Params.fadein }} fade-in one {{ end }}"><!-- Begin Title -->
-    <h1 class="bold-title is-1">{{ "Make Yourself Designs" }}</h1>
-    </div><!-- End Title -->
 
     <!-- Everything below fades in two! -->
-    <div class="section no-padding {{ if .Site.Params.fadein }} fade-in two {{ end }}">
+    <div class="ui section big-headers"><!-- Begin Blog container -->
 
-    <div class="container"><!-- Begin Nav bar -->
-    {{ partial "nav-list.html" . }}
-    </div><!-- End Nav bar -->
-
-    <div class="container"><!-- Begin Blog container -->
+    <div class="ui text container"><!-- Begin Blog container -->
 
     {{ if .Site.Params.showlatest }}
       {{ range first 1 (where .Data.Pages.ByPublishDate.Reverse "Section" "about") }}
-        <h2 class="title is-2 top-pad has-text-centered">{{ .Title }}</h2>
+        <h2 class="ui header centered">{{ .Title }}</h2>
         <div class="about">
-          <!-- <h3 class="title is-3 strong-post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3> -->
                 <div class="markdown">
                 {{ .Content }}
                 </div>
@@ -28,26 +45,30 @@
     {{ end }}
 
     </div><!-- End Blog container -->
+    <div class="centered top-margin">
+      <a href="https://www.etsy.com/shop/MakeYourselfDesigns" class="ui button green huge">
+        Store
+      </a>
+      <a href="/blog" class="ui button primary huge" type="submit">
+        Blog
+      </a>
+    </div>
+  </div>
 
-<!-- <div class="container has-text-centered top-pad">
-<hr>
-<a href="{{ .Permalink }}#top"><i class="fa fa-arrow-up"></i></a>
-<hr>
-</div> -->
 
-{{ partial "footer.html" . }}
-</div><!-- End fade in two -->
-</div><!-- End parent section -->
-
-<!-- Bitty scrolling links script -->
+</main>
+{{ partial "footer.html" }}
+</body>
 <script>
-$('a[href^="{{ .Permalink }}#"]').click(function(e) {
-    e.preventDefault();
-    var target = this.hash;
-    $('html, body').animate({
-    scrollTop: $(target).offset().top
-    }, 500);
-    return false;
-})
+  $('.toggle-sidebar').on('click', function() {
+    $('.ui.sidebar').sidebar('setting', 'transition', 'overlay').sidebar('toggle')
+  })
+
+  $('.nav-img').dimmer({on: 'hover'})
+  $('.nav-img').on('click', function() {
+    var path = $(this).find('a').attr('href')
+    window.location.href = path;
+  })
 </script>
+</html>
 

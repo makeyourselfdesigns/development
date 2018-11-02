@@ -1,5 +1,5 @@
 
-body {
+body, .summary .markdown {
   font-family: 'Playfair Display', serif;
 }
 
@@ -8,6 +8,7 @@ p, .markdown {
 }
 
 .markdown p {
+  font-family: 'Playfair Display', serif;
   margin-bottom: 1.6em;
 }
 
@@ -53,86 +54,6 @@ a.product {
 
 .price::before {
   content: "$"
-}
-
-.hero-body {
-  background: url(../img/landing.jpeg) no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  width: 100%;
-  height: 100%;
-}
-
-@media screen and (min-width: 550px) {
-  .hero.is-large .hero-body {
-      padding-top: 9rem;
-  }
-}
-
-@media screen and (min-width: 769px) {
-  .hero.is-large .hero-body {
-      padding-bottom: 4rem;
-      padding-top: 35rem;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .store-header nav {
-    display: block;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .bold-title {
-    font-size: 4.5rem;
-  }
-}
-
-@media screen and (max-width: 845px) {
-  .bold-title {
-    font-size: 4.3rem;
-  }
-}
-
-@media screen and (max-width: 769px) {
-  .hero-body {
-    background:  url(../img/landing-white.jpeg) no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 550px) {
-  .bold-title {
-    font-size: 3.3rem;
-  }
-
-  .hero-body {
-    background:  url(../img/landing-phone.jpeg) no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-  }
-
-  .section {
-    padding: 3rem 0.5rem;
-  }
-
-  .section.no-padding {
-    padding: 0;
-  }
-}
-
-.circular {
-    padding-left: 15px;
 }
 
 .social-icons {
@@ -206,7 +127,7 @@ a.product {
 }
 
 .blog p strong {
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 .blog-share {
@@ -219,89 +140,134 @@ a.product {
   padding-left: 11px;
 }
 
-.post-item {
-  font-size: 1.3em;
-  margin-bottom: 10px;
+@font-face {
+  font-family: "BebasNeue Bold";
+  src: url("/fonts/BebasNeue Bold.otf");
 }
 
-/* Box-sizing reset: http://w3bits.com/?p=3225 */
-.products {
-  box-sizing: border-box;
+@font-face {
+  font-family: "BebasNeue Regular";
+  src: url("/fonts/BebasNeue Regular.otf");
 }
 
-.product .content {
-  color: #00b8d4
+@font-face {
+  font-family: "BebasNeue Thin";
+  src: url("/fonts/BebasNeue Thin.otf");
 }
 
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
+main {
+ padding-top:  100px;
+ padding-bottom: 100px;
 }
 
-/* The Masonry Container */
-.masonry {
-  margin: 1.5em auto;
-  max-width: 1000px;
-  column-gap: 1.5em;
+h1.ui.header {
+  font-family: "BebasNeue Regular";
+  font-size: 35px;
+  letter-spacing: 5px;
+  font-weight: 400;
 }
 
-/* The Masonry Brick */
-.masonry .item {
-  background: #fff;
-  padding: 1em;
-  margin: 0 0 1.5em;
+h2.ui.header {
+  margin-bottom: 2em;
 }
 
-#store .title {
-   margin: 3.0rem 0;
+h2.ui.header, h2, h3, h4, h5, .sidebar a {
+  font-family: "BebasNeue Regular";
+  letter-spacing: 5px;
 }
 
-#footer {
+.text.container h3 {
+  font-size:20px;
+}
+
+.summary {
+  margin-top: 1em;
+}
+
+.fixed.menu.nav.ui {
+
+ padding-bottom:  6px;
+ padding-top:  6px;
+}
+
+.footer.inverted {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #80808026;
+}
+
+.item.toggle-sidebar .icon {
   font-size: 2em;
 }
 
-.nav-item {
-  font-size: 1.3em;
+.sidebar a , .big-nav h3 {
+  font-size: 27px;
 }
 
-/* Masonry on large screens */
-@media only screen and (min-width: 1024px) {
-  .masonry {
-    column-count: 3;
-  }
+
+.slideshow .controls a.right {
+  right: 0;
+  left: auto;
+  padding-right: 20px;
 }
 
-/* Masonry on medium-sized screens */
-@media only screen and (max-width: 1023px) and (min-width: 768px) {
-  .masonry {
-    column-count: 3;
-  }
+.slideshow .controls a.left {
+  right: auto;
+  left: 0;
+  padding-left: 20px;
+}
+.slideshow .controls a {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  font-size: 4em;
+  color: #363636a1;
+  z-index: 5;
+  padding-top: 21%;
 }
 
-/* Masonry on small screens */
-@media only screen and (max-width: 767px) {
-  .masonry {
-    column-count: 2;
-    margin: 0 0 1.0em
-  }
-
-  .masonry .item {
-    background: #fff;
-    padding: 1em;
-    margin: 0 0 1.0em;
-  }
+.slideshow .controls a:hover {
+  cursor: pointer;
 }
 
-@media only screen and (min-width: 680px) {
-  .store-header .nav-center {
-    /* column-count: 2; */
-    -webkit-column-count: 3;
-    -moz-column-count: 3;
-    column-count: 3;
-    -webkit-column-width: 100px;
-    -moz-column-width: 100px;
-    column-width: 100px;
-    display: block;
-  }
+.big-nav .column .content {
+  background-color: #80808026;
+  font-family: "BebasNeue Regular"
 }
+
+.centered {
+  text-align: center;
+}
+
+.slide { display: none;}
+.slide.slide--current { display: block;}
+.nav-img {
+  padding-left: 20px;
+  padding-right: 20px;
+
+  padding-top: 30px;
+  padding-bottom: 20px;
+
+  border-radius: 5px;
+}
+.nav-img:hover {
+   cursor: pointer;
+}
+
+.ui.section {
+  margin-top: 50px;
+}
+
+.list .item .title {
+  font-size: 1.2em;
+}
+
+.top-margin {
+  margin-top: 3em;
+}
+
+@media only screen and (min-width: 1200px) .ui.container {
+  width: 1200px !important;
+}
+

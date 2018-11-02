@@ -31,12 +31,9 @@ Task Helper
 <div class="section" id="top"><!-- Parent section -->
 
 <!-- Everything below fades in two! -->
-<div class="section {{ if .Site.Params.fadein }} fade-in two {{ end }}">
+<div class="ui section {{ if .Site.Params.fadein }} fade-in two {{ end }}">
 
-    <div class="container"><!-- Begin Nav bar -->
-    </div><!-- End Nav bar -->
-
-    <div class="container {{ if .Site.Params.fadein }} fade-in two {{ end }}"><!-- Begin blog title container -->
+    <div class="ui text container {{ if .Site.Params.fadein }} fade-in two {{ end }}"><!-- Begin blog title container -->
         <h2 class="title is-1 top-pad strong-post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
             <div class="post-data">
                 {{ .Date.Format .Site.Params.dateform }} |

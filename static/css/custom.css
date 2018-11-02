@@ -130,6 +130,10 @@ a.product {
   font-size: 1em;
 }
 
+.blog img {
+  width: 100%;
+}
+
 .blog-share {
   line-height: 30px;
   margin-top: 10px;

@@ -62,3 +62,5 @@ This can be a granola bar, oatmeal packet and a travel bowl, a banana. It's real
 **Just Plan Ahead!** All of these tips and tricks are easy to implement and will get you out of the house in 30 minutes or less if you take the time to plan ahead. A good morning can really help you accomplish more during the day, so set yourself up for success!
 
 Ready to take on Monday Morning? [Click HERE to grab your FREE Morning Prep Checklist to get you out the door quick and easy.](https://mailchi.mp/1d3c2c0ad403/morningprepchecklist)
+
+![Grab your free morning prep checklist](/uploads/2018/11/05/Morning Prep.png "Grab your free morning prep checklist")

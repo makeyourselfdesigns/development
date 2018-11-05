@@ -17,13 +17,13 @@ Also: sleep with your phone on the other side of the room so you have to get up 
 
 ## 2. Get your coffee ready
 
-**![](https://lh4.googleusercontent.com/1-a__HxhxS98MTSTV7vCtwt1VnPbZ1ucS1UY6Wlm_JsoTk2E0SU1g6catEzQ5E7IW5qjKgL_HG75ylsgxX8QsPyVoewKbE5t4i77tcV0XHY6CnaqgvSAYMIJrhzMB-6WEHpWk52j =233x349)**
+![](/uploads/2018/11/05/home-coffee-stand.jpg)
 
 If you make your coffee at home then program your coffee maker! Most of them have a program setting where it will automatically start brewing at whatever time you specify. If you have a keurig set your travel cup next to your coffee maker (make sure its cleaned the night before!) and have your k-cups or pods ready to go.
 
 ## 3. **Outfit Prep the Night Before**
 
-**![](https://lh6.googleusercontent.com/-2mtPfgO80bX0hiq90AOUhcXvU3oew-2ytU59e5CWbuX-nCcTGw-eTlCEEUiVYZsJBjYIoH22uZ1hBog3Ga3a7svCQHTVQuuYRMSTiTKUjuQLBtJPQ49_rl8YLQhkEhkq8I-BFfE =183x275)**
+![](/uploads/2018/11/05/download.jpeg)
 
 [**https://posherry.com/blog/create-perfect-outfit/**](https://posherry.com/blog/create-perfect-outfit/ "https://posherry.com/blog/create-perfect-outfit/")
 
@@ -39,7 +39,7 @@ Take note of the makeup that you use routinely every day and put it all together
 
 ## **5. Shower with Intent**
 
-**![](https://lh5.googleusercontent.com/q9nmwFXjJl4sfnX_ufhlXMkowy7z08ClcU_yfAh09KugM4LZg7PAV_QNIlm_aqkRBg5WCcy9_UolqhACJpfMzz5LEhGSk3o82FNskPv9Oqwxf1XUHH1VwDUmXTP0uAdPdFRhsTUV =211x316)**[**https://www.urbanoutfitters.com/shop/sloths-shower-curtain**](https://www.urbanoutfitters.com/shop/sloths-shower-curtain "https://www.urbanoutfitters.com/shop/sloths-shower-curtain")
+**![](/uploads/2018/11/05/45304920_000_b.jpeg)**[**https://www.urbanoutfitters.com/shop/sloths-shower-curtain**](https://www.urbanoutfitters.com/shop/sloths-shower-curtain "https://www.urbanoutfitters.com/shop/sloths-shower-curtain")
 
 Okay yeah I admit this one sounds a little funny but seriously- get in and get out! If you like to shower in the morning, make sure you keep it simple and allow the time for it. I recommend showering at night to save time.
 
@@ -53,7 +53,7 @@ Keep your keys and Wallet in the same spot so you can grab and go in the morning
 
 ## 7. **Grab and Go Breakfast**
 
-**![](https://lh4.googleusercontent.com/ZFGL-Ij8m2uqWxGyxZPVuxzYdfHASDQZsxPoQnmk4jrtWWzBDsv3Db4OsBoqmq4y2nstIT5_YcFFweWhxioLHUwafljTVpdmom29bC29sKOKuWw6ODUapBNp-Q-Fy13hCvBpMqe3 =215x324)**
+![](/uploads/2018/11/05/No-Bake-Energy-Bites3.jpg)
 
 [**https://www.chelseasmessyapron.com/no-bake-energy-bites/**](https://www.chelseasmessyapron.com/no-bake-energy-bites/ "https://www.chelseasmessyapron.com/no-bake-energy-bites/")
 

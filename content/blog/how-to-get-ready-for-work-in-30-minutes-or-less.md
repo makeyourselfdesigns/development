@@ -15,7 +15,7 @@ Are you the type of person to hit snooze a lot? Plan ahead and make sure you giv
 
 Also: sleep with your phone on the other side of the room so you have to get up to snooze
 
-## 2. **Set your alarm for a reasonable time**
+## 2. Get your coffee ready
 
 **![](https://lh4.googleusercontent.com/1-a__HxhxS98MTSTV7vCtwt1VnPbZ1ucS1UY6Wlm_JsoTk2E0SU1g6catEzQ5E7IW5qjKgL_HG75ylsgxX8QsPyVoewKbE5t4i77tcV0XHY6CnaqgvSAYMIJrhzMB-6WEHpWk52j =233x349)**
 

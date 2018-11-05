@@ -23,7 +23,7 @@ If you make your coffee at home then program your coffee maker! Most of them hav
 
 ## 3. **Outfit Prep the Night Before**
 
-![](/uploads/2018/11/05/download.jpeg)
+![](/uploads/2018/11/05/551d83de81db6a2b26931d2de404c134.jpg)
 
 [**https://posherry.com/blog/create-perfect-outfit/**](https://posherry.com/blog/create-perfect-outfit/ "https://posherry.com/blog/create-perfect-outfit/")
 
@@ -31,7 +31,7 @@ Knowing what you're going to wear is a _serious_ time saver, need I say more? Ma
 
 ## 4. **Keep an Everyday Essentials Makeup Bag**
 
-![](https://lh6.googleusercontent.com/_FTAllZTYjbKWZmMlsfI952BtZaG2ArPNEC_kapUOrFBSiY1pnaouu1vU876gFP7RvP9krGyDs1jaYVoS-nXUkScOeWhlDZ6cLqff0H_C6VzaVna13qQWIKeob5E30omhH0Q4ruD =378x284)
+![](/uploads/2018/11/05/IMG_1287.jpg)
 
 [https://www.etsy.com/shop/makeyourselfdesigns?section_id=18858827](https://www.etsy.com/shop/makeyourselfdesigns?section_id=18858827 "https://www.etsy.com/shop/makeyourselfdesigns?section_id=18858827")
 
@@ -45,7 +45,7 @@ Okay yeah I admit this one sounds a little funny but seriously- get in and get o
 
 ## 6. **Get your purse organized**
 
-**![](https://lh5.googleusercontent.com/7lF0upvcjtvICTCBumOlI6n1kAjfd2DAqup8R2w5qA4znoUtb63NqksnxSjzBPS5HeHnpTXIEmgsuqwa154kCkRFwNIP5cMwz4mxE2cQMWjvq3LwjfOLSaBUffN1x5BYWwFl8_5r =313x235)**
+![](/uploads/2018/11/05/ACS_0637.jpg)
 
 [**https://www.etsy.com/shop/makeyourselfdesigns?section_id=22839079**](https://www.etsy.com/shop/makeyourselfdesigns?section_id=22839079 "https://www.etsy.com/shop/makeyourselfdesigns?section_id=22839079")
 

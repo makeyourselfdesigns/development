@@ -54,8 +54,8 @@ Make Yourself Designs
 
     <div class="ui section"><!-- Begin Blog container -->
     <h2 class="ui header centered">All Posts</h2>
-        <div class="ui relaxed list big">
-        {{ range .Data.Pages.ByPublishDate }}
+        <div class="ui relaxed divided list big">
+        {{ range sort (.Data.Pages.ByPublishDate).Reverse  }}
             {{ if eq .Section "blog" }}
                 {{ partial "li.html" . }}
             {{ end }}

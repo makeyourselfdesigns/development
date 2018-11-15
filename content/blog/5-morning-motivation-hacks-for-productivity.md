@@ -41,7 +41,7 @@ Some people wear light makeup to work, and others like to glam, whichever you pr
 
 ![](/uploads/2018/11/15/playlistview.png)
 
-Create a playlist for yourself to set a mood in the morning to play either as you get ready or drive into work. Music is powerful and you can really change the outcome of your day just by setting the right mood. I like to have a couple different ones for however i'm feeling that day.
+Create a playlist for yourself to set a mood in the morning to play either as you get ready or drive into work. Music is powerful and you can really change the outcome of your day just by setting the right mood. I like to have a couple different ones for however i'm feeling that day. You can even make them secret if you REALLY want something all to yourself :)
 
 ## 5. Listen to a Podcast:
 

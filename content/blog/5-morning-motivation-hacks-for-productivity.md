@@ -19,7 +19,7 @@ _Are you a morning person?_ Okay good, me neither. Mornings always have a few cr
 
 Plan ahead something that is healthy and nourishing to your body. Pick something that will give you the brain power and energy to get through the morning. I’ve heard that mornings are the most productive time during your work day; so figure out what foods will keep you full till lunch so you can focus and be productive. (INSERT PHOTO OF PINTEREST BREAKFAST IDEAS) Pinterest will be your best friend for recipe ideas, click the picture above to find something easy you’ll want to try out.
 
-## 2. Outfit Prep: 
+## 2. Outfit Prep:
 
 ![](/uploads/2018/11/05/551d83de81db6a2b26931d2de404c134.jpg)
 
@@ -33,7 +33,7 @@ I also LOVE to get on Pinterest and make boards for some style inspo. Check out 
 
 ![](/uploads/2018/11/05/IMG_1287.jpg)
 
-Some people wear light makeup to work, and others like to glam, whichever you prefer you should consider using an everyday essentials makeup bag. Place the beauty products you use routinely to get ready in the morning in one space so you can get ready with ease AND take it with you and go if you’re in a rush! 
+Some people wear light makeup to work, and others like to glam, whichever you prefer you should consider using an everyday essentials makeup bag. Place the beauty products you use routinely to get ready in the morning in one space so you can get ready with ease AND take it with you and go if you’re in a rush!
 
 [Click HERE to see more Makeup Bags in my Etsy shop](https://www.etsy.com/shop/MakeYourselfDesigns?ref=seller-platform-mcnav&section_id=18858827)
 
@@ -57,4 +57,4 @@ Don't Keep Your Day Job: [https://www.dontkeepyourdayjob.com/podcast/](https://w
 
 Style Your Mind: [https://styleyourmind.libsyn.com/](https://styleyourmind.libsyn.com/ "https://styleyourmind.libsyn.com/")
 
-Ready to get motivated and reach your true potential? Click HERE to grab your FREE healthy habits checklist. Use it as a tool to set some personal goals, and have _accountability_ for them. It's so easy to say "yeah i'll do it" but when you write it down and hang it up- you're already taking steps to achieve your goals!
+Ready to get motivated and reach your true potential?[ Click HERE to grab your FREE healthy habits checklist.](https://mailchi.mp/6a141c219491/healthyhabitschecklist "healthy habits") Use it as a tool to set some personal goals, and have _accountability_ for them. It's so easy to say "yeah i'll do it" but when you write it down and hang it up- you're already taking steps to achieve your goals!

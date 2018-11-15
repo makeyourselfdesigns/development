@@ -17,19 +17,19 @@ _Are you a morning person?_ Okay good, me neither. Mornings always have a few cr
 
 [https://sweetpeasandsaffron.com/fruit-on-the-bottom-overnight-oats/](https://sweetpeasandsaffron.com/fruit-on-the-bottom-overnight-oats/ "https://sweetpeasandsaffron.com/fruit-on-the-bottom-overnight-oats/")
 
-Plan ahead something that is healthy and nourishing to your body. Pick something that will give you the brain power and energy to get through the morning. I’ve heard that mornings are the most productive time during your work day; so figure out what foods will keep you full till lunch so you can focus and be productive. (INSERT PHOTO OF PINTEREST BREAKFAST IDEAS) Pinterest will be your best friend for recipe ideas, click the picture above to find something easy you’ll want to try out.
+Plan ahead something that is healthy and nourishing to your body. Pick something that will give you the brain power and energy to get through the morning. I’ve heard that mornings are the most productive time during your work day; so figure out what foods will keep you full till lunch so you can focus and be productive. Pinterest will be your best friend for recipe ideas, click the picture above to find something easy you’ll want to try out.
 
 ## 2. Outfit Prep:
 
 ![](/uploads/2018/11/05/551d83de81db6a2b26931d2de404c134.jpg)
 
-The night before pick out something cute that you’ll be confident in. When you feel good, you do good! If you’re really into planning you can plan out the weeks worth of outfits on sunday and hang them in your closet next to each other so you can grab and go.
+The night before pick out something cute that you’ll be confident in. When you feel good, you do good! If you’re really into planning you can plan out the weeks worth of outfits on Sunday and hang them in your closet next to each other so you can grab and go.
 
 I also LOVE to get on Pinterest and make boards for some style inspo. Check out my board [Casual Fashion](https://pin.it/dzadmjcnmikvjh) by clicking that link or take a photo of this image below in your Pinterest app:
 
 ![](/uploads/2018/11/15/pincode_393009573671908308 (1).png "Casual Fashion")
 
-## 3. Get Ready in the Morning:
+## 3. Get Ready in the Morning (the easy way):
 
 ![](/uploads/2018/11/05/IMG_1287.jpg)
 

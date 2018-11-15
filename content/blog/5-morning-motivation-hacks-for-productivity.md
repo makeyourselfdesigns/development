@@ -58,4 +58,6 @@ Style Your Mind: [https://styleyourmind.libsyn.com/](https://styleyourmind.libsy
 
 Ready to get motivated and reach your _true potential_?[ Click HERE to grab your FREE healthy habits checklist.](https://mailchi.mp/6a141c219491/healthyhabitschecklist "healthy habits") Use it as a tool to set some personal goals, and have _accountability_ for them. It's so easy to say "yeah i'll do it" but when you write it down and hang it up- you're already taking steps to achieve your goals!
 
-![](/uploads/2018/11/15/grab your (2).png "healthy habits for motivation")
+[![](/uploads/2018/11/15/grab your (2).png "healthy habits for motivation")](https://mailchi.mp/6a141c219491/healthyhabitschecklist)
+
+[click here](https://mailchi.mp/6a141c219491/healthyhabitschecklist)

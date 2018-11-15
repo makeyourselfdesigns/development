@@ -11,8 +11,7 @@ Time saving ideas and inspiration to get you out of the house quicker and have a
 
 _Are you a morning person?_ Okay good, me neither. Mornings always have a few crazy elements to them, one of them being **stress**. Stressful mornings can sometimes lead to not so easy days, which then lead to laying on the couch with zero motivation when you get home. Can you relate to this? If you can in the slightest and need some motivation then keep reading because I am going to show you that you can have an easy morning and create better habits that will help you live a more productive life! Sounds like a lot so let's get into it!
 
-##   
-1\. Breakfast Prep: 
+## 1. Breakfast Prep:
 
 ![](/uploads/2018/11/15/Fruit-on-the-bottom-overnight-oats-4-600x900.jpg)
 

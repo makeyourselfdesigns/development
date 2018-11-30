@@ -1,6 +1,5 @@
 +++
 date = "2018-11-30T13:14:43+00:00"
-draft = true
 title = "How to Travel with Beauty Products"
 type = ""
 

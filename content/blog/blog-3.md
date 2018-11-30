@@ -1,14 +1,14 @@
 +++
 date = "2018-11-30T13:14:43+00:00"
 draft = true
-title = "BLOG 3"
+title = "How to Travel with Beauty Products"
 type = ""
 
 +++
 
-## How to travel with beauty products
+## How to Travel with Beauty Products
 
-_What to use and how to organize beauty products for traveling_
+###### _What to use and how to organize beauty products for traveling_
 
 ![](/uploads/2018/11/30/how to.png)  
 Going on vacation or just out of town for the weekend can be so relaxing, although it usually includes a good amount of planning(and some stress!) ahead of time. I bet the last thing you want to worry about on your trip is your makeup and beauty products spilling and leaking in your luggage. If you want to know how to prevent this from happening, keep reading because i’m going to show you how to travel efficiently  with your beauty products and look cute while doing so.

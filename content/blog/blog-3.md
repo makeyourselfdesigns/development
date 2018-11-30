@@ -4,7 +4,6 @@ title = "How to Travel with Beauty Products"
 type = ""
 
 +++
-
 ## How to Travel with Beauty Products
 
 ###### _What to use and how to organize beauty products for traveling_
@@ -12,9 +11,9 @@ type = ""
 ![](/uploads/2018/11/30/how to.png)  
 Going on vacation or just out of town for the weekend can be so relaxing, although it usually includes a good amount of planning(and some stress!) ahead of time. I bet the last thing you want to worry about on your trip is your makeup and beauty products spilling and leaking in your luggage. If you want to know how to prevent this from happening, keep reading because i’m going to show you how to travel efficiently  with your beauty products and look cute while doing so.
 
-## 1. Check the temperature of where you’re traveling to: ![](/uploads/2018/11/30/greece-0751.jpg)
+## 1. Check the temp when & where you’re going: ![](/uploads/2018/11/30/greece-0751.jpg)
 
-Temperature affects everything, not just your clothing choices but your beauty products too. You might have an idea already of what the climate is like wherever you’re going to. Take a look on a weather app a couple days ahead of time to see if it will be humid or cold. For example: If i'm spending my vacation on the beach (I wish) i'll usually pack minimal makeup, extra SPF, and some frizz ease for my hair in the heat. This will help you plan out what products to bring on your trip and save you some space. 
+Temperature affects everything, not just your clothing choices but your beauty products too. You might have an idea already of what the climate is like wherever you’re going to. Take a look on a weather app a couple days ahead of time to see if it will be humid or cold. For example: If i'm spending my vacation on the beach (I wish) i'll usually pack minimal makeup, extra SPF, and some frizz ease for my hair in the heat. This will help you plan out what products to bring on your trip and save you some space.
 
 ## 2. Use your Carry On Wisely:
 
@@ -28,7 +27,7 @@ Don't just take it from me! For more tips on packing your carry-on: [https://the
 
 ## 4. Keep em Separated
 
-![](/uploads/2018/11/05/IMG_1287.jpg)Invest in some high quality beauty travel bags for Makeup, Skincare, and Hair care. Keeping them separate can help avoid the Moroccan oil spill that ruins your Anastasia eye shadow palette. 
+![](/uploads/2018/11/05/IMG_1287.jpg)Invest in some high quality beauty travel bags for Makeup, Skincare, and Hair care. Keeping them separate can help avoid the Moroccan oil spill that ruins your Anastasia eye shadow palette.
 
 Luckily I design and make some awesome bags in my Etsy shop. Most of them are waterproof and wipeable! Check them out here: [https://www.etsy.com/shop/MakeYourselfDesigns?section_id=18858827](https://www.etsy.com/shop/MakeYourselfDesigns?section_id=18858827 "https://www.etsy.com/shop/MakeYourselfDesigns?section_id=18858827")
 

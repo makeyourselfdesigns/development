@@ -11,7 +11,9 @@ type = ""
 
 Beauty products have always been some of my favorite things to collect, but they aren’t really my favorite to get rid of. I don't know if you're like me, but I've noticed I'm collecting makeup and skincare products like they're rare Pokemon cards. This creates bins and drawers of sometimes expired, or unused makeup that i’m forgetting about or i’m straight up ignoring (lazy hack). Are your shelves looking a little too full? Maybe spent a little too much money on the never ending new beauty products coming out? Then keep reading, and let’s tackle this together once and for all: Organizing our Beauty Products.
 
-![](/uploads/2019/02/01/a03cf51246a3ab1785ea384f720d1759.jpg)Declutter your space:
+![](/uploads/2019/02/01/a03cf51246a3ab1785ea384f720d1759.jpg)
+
+## 1. Declutter your space:
 
 I’m sure I’m not the first and I won’t be the last person to tell you about Marie Kondo and the Konmari Method but here we go: Take EVERYTHING out of your beauty space. Everything comes off the shelves, every last eyeliner and brush comes out of their storage containers. Put it all in one spot and when you’re done take a look…..WOW! Have a bag ready for things that you want to get rid of. And don’t forget to consider donating beauty products that you haven’t used or are gently used.
 

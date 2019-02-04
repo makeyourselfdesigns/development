@@ -1,5 +1,5 @@
 +++
-date = ""
+date = "2019-02-01T05:00:00+00:00"
 title = "USING THE KONMARI METHOD FOR YOUR BEAUTY PRODUCTS"
 type = ""
 

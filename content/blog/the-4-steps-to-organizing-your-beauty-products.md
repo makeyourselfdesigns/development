@@ -5,7 +5,7 @@ title = "The 4 Steps to Organizing Your Beauty Products"
 type = ""
 
 +++
-![](/uploads/2019/02/01/mariekondo.png)
+![](/uploads/2019/02/04/www.etsy.com_shop_makeyourselfdesigns (1).png)
 
 ## The 4 Steps to Organizing Your Beauty Products using the Konmari Method
 
@@ -19,24 +19,25 @@ I’m sure I’m not the first and I won’t be the last person to tell you abou
 
 ![](/uploads/2019/02/01/BEFORE.png)
 
-  Above is an actual photo of one of my makeup drawers that I just recently de-cluttered. Embarrassing? Kind of. Helpful? Totally. If I can do it, you can too! I've recently moved all of my makeup into a smaller shelf space and its so much easier to keep track of.
+Above is an actual photo of one of my makeup drawers that I just recently de-cluttered. Embarrassing? Kind of. Helpful? Totally. If I can do it, you can too! I've recently moved all of my makeup into a smaller shelf space and its so much easier to keep track of.
+
 ## 2. Decision Making:
 
-   Now is the hardest part, you have to decide what you want to keep and what you don’t. Marie Kondo & the Konmari method tell you to pick up the item and if it “sparks joy” for you, then keep it. If the item doesn’t spark joy, toss it. Another thing to consider: is it even sanitary, or has it expired? Some of our makeup has a shelf life of only 6 months, take a look at the back of the product if you’re confused.
+Now is the hardest part, you have to decide what you want to keep and what you don’t. Marie Kondo & the Konmari method tell you to pick up the item and if it “sparks joy” for you, then keep it. If the item doesn’t spark joy, toss it. Another thing to consider: is it even sanitary, or has it expired? Some of our makeup has a shelf life of only 6 months, take a look at the back of the product if you’re confused.
 
 ![](/uploads/2018/11/30/94a5e3249a83b9a0d649cd504852c44b.jpg)
 
-## 3. New Home:
+## 3. Find a New Home:
 
-   Now that you’ve decided what you want to keep, how will you keep it? Will you sort it by color? By product type? Glance over your products and start to see what would make the most sense in the space you're giving it. Maybe arrange them in groups on the ground around you and see. Scroll through my pinterest board [Beauty Organization](https://www.pinterest.com/makeyourselfdesigns/beauty-organization/) for some ideas and serious inspo.
+Now that you’ve decided what you want to keep, how will you keep it? Will you sort it by color? By product type? Glance over your products and start to see what would make the most sense in the space you're giving it. Maybe arrange them in groups on the ground around you and see. Scroll through my pinterest board [Beauty Organization](https://www.pinterest.com/makeyourselfdesigns/beauty-organization/) for some ideas and serious inspo.
 
 ![](/uploads/2019/02/01/0a03917c15374fdf876956a5996c1330.jpg)
 
 ## 4. Curate an Everyday Essentials bag:
 
-   This here is my best tip for someone who has a busy morning, or doesn’t want to have to go back and forth from the drawer to the mirror. What do you use almost every day to do your makeup? Choose your most used products and put them in one makeup bag so that you can grab it and get to work (OR grab it and get out the door on those late mornings!)
+This here is my best tip for someone who has a busy morning, or doesn’t want to have to go back and forth from the drawer to the mirror. What do you use almost every day to do your makeup? Choose your most used products and put them in one makeup bag so that you can grab it and get to work (OR grab it and get out the door on those late mornings!)
 
-   Click[ HERE](https://www.etsy.com/shop/MakeYourselfDesigns?section_id=18858827) to view my handmade waterproof makeup bags like the one below.
+Click[ HERE](https://www.etsy.com/shop/MakeYourselfDesigns?section_id=18858827) to view my handmade waterproof makeup bags like the one below.
 
 ![](/uploads/2018/11/05/IMG_1287.jpg)
 

@@ -1,6 +1,5 @@
 +++
 date = ""
-draft = true
 title = "The 4 Steps to Organizing Your Beauty Products"
 type = ""
 

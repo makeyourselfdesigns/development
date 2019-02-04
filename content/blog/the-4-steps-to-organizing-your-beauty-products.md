@@ -1,6 +1,6 @@
 +++
 date = ""
-title = "The 4 Steps to Organizing Your Beauty Products"
+title = "USING THE KONMARI METHOD FOR YOUR BEAUTY PRODUCTS"
 type = ""
 
 +++

@@ -1,10 +1,10 @@
 +++
 date = "2019-02-01T05:00:00+00:00"
 title = "USING THE KONMARI METHOD FOR YOUR BEAUTY PRODUCTS"
+image = "http://makeyourselfdesigns.com/uploads/2019/02/04/www.etsy.com_shop_makeyourselfdesigns (1).png"
 type = ""
 
 +++
-![](/uploads/2019/02/04/www.etsy.com_shop_makeyourselfdesigns (1).png)
 
 ## The 4 Steps to Organizing Your Beauty Products using the Konmari Method
 

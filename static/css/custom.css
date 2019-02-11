@@ -149,7 +149,7 @@ a.product {
 
 .container.markdown.blog > p:first-of-type > img, .blog a img {
   width: 100%;
-  max-height: 1000px;
+  max-height: 100%;
 }
 
 .blog-share .fa {

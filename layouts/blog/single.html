@@ -76,6 +76,10 @@ Make Yourself Designs
             {{ end }}
 
     </div><!-- End blog title container -->
+    {{ if .Params.image }}
+      <img class="ui image centered aligned" src="{{ .Params.image }}" alt="" />
+    {{ end }}
+
 
     <div class="container markdown blog {{ if .Site.Params.fadein }} fade-in two {{ end }} top-pad"><!-- Begin blog post content -->
         {{ .Content }}

@@ -1,12 +1,13 @@
 +++
 date = "2018-11-30T13:14:43+00:00"
 title = "How to Travel with Beauty Products"
+image = "http://makeyourselfdesigns.com/uploads/2018/11/30/how%20to.png"
 type = ""
 
 +++
+
 ## How to Travel with Beauty Products
 
-![](/uploads/2018/11/30/how to.png)  
 Going on vacation or just out of town for the weekend can be so relaxing, although it usually includes a good amount of planning(and some stress!) ahead of time. I bet the last thing you want to worry about on your trip is your makeup and beauty products spilling and leaking in your luggage. If you want to know how to prevent this from happening, keep reading because i’m going to show you how to travel efficiently  with your beauty products and look cute while doing so.
 
 ## 1. Check the temp when & where you’re going: ![](/uploads/2018/11/30/greece-0751.jpg)

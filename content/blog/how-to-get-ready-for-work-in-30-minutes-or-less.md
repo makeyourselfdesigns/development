@@ -1,10 +1,10 @@
 +++
 date = "2018-11-02T12:45:23+00:00"
 title = "How to Get Ready in 30 Minutes or Less"
+image = "http://makeyourselfdesigns.com/uploads/2018/10/08/work_ready_morning_routine.png"
 type = ""
 
 +++
-![](/uploads/2018/10/08/work_ready_morning_routine.png)
 
 Getting ready to go out with friends is one of my **favorite** activities; looking cute, doing my makeup, the whole thing. However, getting ready for work or school? This is one of my _least_ favorite because if you’re like me, you’re constantly checking your clock to make sure you have time for x y and z. If you’re tired of racing out the door, keep reading because I am going to show you some easy things to incorporate into your routine that will help you get ready for work in 30 minutes or less.
 

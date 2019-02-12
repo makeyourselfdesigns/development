@@ -2,6 +2,8 @@
 date = "2019-02-01T05:00:00+00:00"
 title = "USING THE KONMARI METHOD FOR YOUR BEAUTY PRODUCTS"
 image = "http://makeyourselfdesigns.com/uploads/2019/02/04/www.etsy.com_shop_makeyourselfdesigns (1).png"
+description = "How to impliment the Konmari Method in order to tighty up your make up products."
+keywords = "Konmari Makeup Products"
 type = ""
 
 +++

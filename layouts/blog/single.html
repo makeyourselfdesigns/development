@@ -18,14 +18,23 @@
 <title>
 Make Yourself Designs
 </title>
-<meta content='display_description' name='description'>
+<meta charset="UTF-8">
+{{ if .Params.description }}
+<meta content="Blog - {{ .Params.description }}" name='description'>
+{{ end  }}
+{{ if .Params.keywords }}
+<meta content="{{ .Params.keywords }}" name='keywords'>
+{{ end  }}
+<meta content="Jessica LaBarge" name='author'>
 </head>
 <body>
   {{ partial "nav.html" }}
 
 <main class='ui container'>
 <h1 class='ui header'>
-{{ .Site.Params.bloghead }}
+  <a href="/blog">
+    {{ .Site.Params.bloghead }}
+  </a>
 </h1>
 
 

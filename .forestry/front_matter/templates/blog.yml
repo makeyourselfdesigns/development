@@ -31,6 +31,10 @@ fields:
   name: description
   label: description
   description: meta data description for SEO
+- type: text
+  name: keywords
+  label: keywords
+  description: meta data keywords for SEO
 pages:
 - content/blog/5-morning-motivation-hacks-for-productivity.md
 - content/blog/how-to-get-ready-for-work-in-30-minutes-or-less.md

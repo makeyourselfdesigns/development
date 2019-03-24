@@ -15,231 +15,72 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/components/api.min.js' type='text/javascript'></script>
 <script src='https://unpkg.com/stimulus/dist/stimulus.umd.js'></script>
 {{ template "_internal/google_analytics_async.html" . }}
-<script>
-  (() => {
-    const application = Stimulus.Application.start()
-
-    application.register("slideshow", class extends Stimulus.Controller {
-      static get targets() {
-        return [ "slide" ]
-      }
-
-      initialize() {
-        this.showCurrentSlide()
-      }
-
-      connect() {
-        this.startTimer()
-      }
-
-      next() {
-        const currentSlide = this.visibleSlide();
-        this.stopTimer()
-
-        if ( this.index === this.slideTargets.length - 1) {
-          this.index = 0
-        } else {
-          this.index++
-        }
-
-        this.fadeSlides(currentSlide, this.visibleSlide())
-        this.startTimer();
-      }
-
-      startTimer() {
-        this.timer = setInterval(() => {
-          const currentSlide = this.visibleSlide();
-          if ( this.index === this.slideTargets.length - 1) {
-            this.index = 0
-          } else {
-            this.index++
-          }
-
-          this.fadeSlides(currentSlide, this.visibleSlide())
-        }, 5000)
-      }
-
-      stopTimer() {
-        clearInterval(this.timer)
-      }
-
-      previous() {
-        const currentSlide = this.visibleSlide();
-        this.stopTimer()
-
-        if ( this.index === 0 ) {
-          this.index = this.slideTargets.length - 1
-        } else {
-          this.index--
-        }
-
-        this.fadeSlides(currentSlide, this.visibleSlide())
-        this.startTimer();
-      }
-
-      disableControls() {
-        $('.controls button').prop("disabled", true);
-      }
-
-      enableControls() {
-        $('.controls button').prop("disabled", false);
-      }
-
-      visibleSlide() {
-        return this.slideTargets[this.index]
-      }
-
-      fadeSlides(current, next){
-        this.disableControls()
-        var stimulus = this
-        $(current).fadeOut('slow', function() {
-          this.classList.toggle('slide--current');
-          $(next).fadeIn('slow', stimulus.enableControls);
-          next.classList.toggle('slide--current');
-        })
-      }
-
-      showCurrentSlide() {
-        this.slideTargets.forEach((el, i) => {
-           el.classList.toggle('slide--current', this.index == i)
-          if (this.index == i) {
-          }
-        })
-      }
-
-      get index() {
-        return parseInt(this.data.get("index"))
-      }
-
-      set index(value) {
-        this.data.set('index', value)
-        //.this.showCurrentSlide()
-      }
-
-      set timer(value) {
-         this.data.set('timer', value)
-      }
-
-      get timer() {
-        return this.data.get("timer")
-      }
-      // …
-    })
-
-  })()
-</script>
 <title>
 Make Yourself Designs
 </title>
-<meta content='display_description' name='description'>
+<meta charset="UTF-8">
+{{ if .Params.description }}
+<meta content="Blog - {{ .Params.description }}" name='description'>
+{{ end  }}
+{{ if .Params.keywords }}
+<meta content="{{ .Params.keywords }}" name='keywords'>
+{{ end  }}
 </head>
-<body>
-  {{ partial "nav.html" }}
-<main class='ui container'>
-<h1 class='ui header'>
-Make Yourself Designs
-</h1>
-<div class='ui grid'>
-<div class='row'>
-<div class='ui sixteen wide column'>
-<div class='slideshow' data-controller='slideshow' data-slideshow-index='0'>
-<div class='controls'>
-<a class='left' data-action='slideshow#previous'>
-<i class='chevron left ui icon'></i>
-</a>
-<a class='right' data-action='slideshow#next'>
-<i class='chevron right ui icon'></i>
-</a>
+<body class="landing" style="background-image: url('../img/landing-1.jpg');">
+<div class='ui center aligned grid logo'>
+  <div class="column">
+    <div class="content">
+      <h1>
+        <div class="item">
+          MAKE
+        </div>
+        <div class="item">
+          YOUR
+        </div>
+        <div class="item self">
+          SELF
+        </div>
+        <div class="item script">
+          designs
+        </div>
+      </h1>
+    </div>
+  </div>
 </div>
-<div class='slide' data-target='slideshow.slide'>
-<a href="https://www.etsy.com/shop/MakeYourselfDesigns" target="_blank">
-<img class='ui fluid image' src='/img/makeyourself.png'>
-</a>
-</div>
-<div class='slide' data-target='slideshow.slide'>
-<a href="/blog" target="_blank">
-  <img class='ui fluid image' src='/img/valentine.png'>
-</a>
-</div>
-<div class='slide' data-target='slideshow.slide'>
-<a href="https://www.etsy.com/shop/MakeYourselfDesigns" target="_blank">
-<img class='ui fluid image' src='/img/placeholder.png'>
-</a>
-</div>
-<div class='slide' data-target='slideshow.slide'>
-<a href="https://www.etsy.com/shop/MakeYourselfDesigns" target="_blank">
-<img class='ui fluid image' src='/img/wristlets.png'>
-</a>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class='ui grid three column stackable'>
-<div class='row big-nav'>
-<div class='column center aligned'>
-<div class='content nav-img'>
-<a href='https://www.etsy.com/shop/MakeYourselfDesigns' style='display: none'></a>
-<img class='ui image fluid' src='/img/shop.png'>
-<h3>
-Shop
-</h3>
-<div class='ui dimmer'>
-<div class='content'>
-<div class='ui inverted icon header'>
-<i class='shopping bag icon'></i>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class='column center aligned'>
-<div class='content nav-img'>
-<a href='/blog' style='display: none'></a>
-<img class='ui image fluid' src='/img/blog.png'>
-<h3>
-Blog
-</h3>
-<div class='ui dimmer'>
-<div class='content'>
-<div class='ui inverted icon header'>
-<i class='pencil alternate icon'></i>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class='column center aligned'>
-<div class='content nav-img'>
-<a href='/about' style='display: none'></a>
-<img class='ui image fluid' src='/img/about.png'>
-<h3>
-About
-</h3>
-<div class='ui dimmer'>
-<div class='content'>
-<div class='ui inverted icon header'>
-<i class='star icon'></i>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</main>
-{{ partial "footer.html" }}
-</body>
-<script>
-  $('.toggle-sidebar').on('click', function() {
-    $('.ui.sidebar').sidebar('setting', 'transition', 'overlay').sidebar('toggle')
-  })
+<div class='ui middle aligned center aligned grid navigation'>
+  <div class="column">
+    <div class="content">
+      <nav class="ui nav">
+        <div class="nav-item">
+          <a class="nav-item" href="https://www.etsy.com/shop/MakeYourselfDesigns">SHOP</a>
+        </div>
+        <div class="nav-item">
+          <a class="/about" href="/about">ABOUT</a>
+        </div>
+        <div class="nav-item">
+          <a class="/blog" href="/blog">BLOG</a>
+        </div>
+      </nav>
 
-  $('.nav-img').dimmer({on: 'hover'})
-  $('.nav-img').on('click', function() {
-    var path = $(this).find('a').attr('href')
-    window.location.href = path;
-  })
-</script>
+    </div>
+  </div>
+</div>
+<footer class='ui footer'>
+<div class='ui container center aligned'>
+<a class='ui button circular icon basic inverted white huge' href='mailto:MakeYourselfDesigns@gmail.com'>
+<i class='icon envelope'></i>
+</a>
+<a class='ui button circular icon basic inverted white huge' href='https://www.etsy.com/shop/MakeYourselfDesigns'>
+<i class='icon etsy'></i>
+</a>
+<a class='ui button circular icon basic inverted white huge' href='https://instagram.com/makeyourselfdesigns'>
+<i class='icon instagram'></i>
+</a>
+<a class='ui button circular icon basic inverted white huge' href='https://facebook.com/MYD518'>
+<i class='icon facebook'></i>
+</a>
+</div>
+</footer>
+</body>
 </html>
 

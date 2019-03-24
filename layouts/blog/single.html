@@ -43,8 +43,8 @@ Make Yourself Designs
 <!-- Everything below fades in two! -->
 <div class="ui section {{ if .Site.Params.fadein }} fade-in two {{ end }}">
 
-    <div class="ui text container {{ if .Site.Params.fadein }} fade-in two {{ end }}"><!-- Begin blog title container -->
-        <h2 class="title is-1 top-pad strong-post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+    <div class="ui text container blog-header {{ if .Site.Params.fadein }} fade-in two {{ end }}"><!-- Begin blog title container -->
+        <h1 class="title is-1 top-pad strong-post-title">{{ .Title }}</h1>
             <div class="post-data">
                 {{ .Date.Format .Site.Params.dateform }} |
                 {{ if eq 1 .ReadingTime }}{{ .ReadingTime }} minute read{{ else }}{{ .ReadingTime }} minutes read{{ end }}
@@ -85,14 +85,43 @@ Make Yourself Designs
             {{ end }}
 
     </div><!-- End blog title container -->
+
+<!-- The blog header image
     {{ if .Params.image }}
-      <img class="ui blog-header-img image centered aligned" src="{{ .Params.image }}" alt="" />
-    {{ end }}
+        <img class="ui blog-header-img image centered aligned" src="{{ .Params.image }}" alt="" />
+    {{ end }} -->
 
 
-    <div class="container markdown blog {{ if .Site.Params.fadein }} fade-in two {{ end }} top-pad"><!-- Begin blog post content -->
-        {{ .Content }}
-    </div><!-- End blog post content -->
+
+      <div class="container markdown blog {{ if .Site.Params.fadein }} fade-in two {{ end }} top-pad"><!-- Begin blog post content -->
+          {{ .Content }}
+      </div><!-- End blog post content -->
+
+      <div class="ui segment raise pinnable">
+
+        <div class="ui middle aligned grid stackable internally celled container">
+
+          <div class="row">
+            <div class="eight wide column">
+              <img class="ui image fluid" src="{{ .Params.image }}" alt="" />
+            </div>
+
+            <div class="eight wide column">
+              <h2 class="ui header"> Like this blog? Share it on Pinterest</h2>
+              <div class="ui labeled icon buttons">
+                <a class="ui button huge pink" data-pin-do="buttonBookmark" data-pin-custom="true" href="https://www.pinterest.com/pin/create/button/">
+                  <i class="pinterest p icon">
+
+                  </i>
+                  Pin Now
+
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
 
     <div class="disqus">
         {{ template "_internal/disqus.html" . }}

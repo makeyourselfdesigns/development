@@ -1,7 +1,125 @@
 
 body, .summary .markdown {
-  //font-family: 'Playfair Display', serif;
   font-family: 'Montserrat', sans-serif;
+}
+
+@font-face {
+  font-family: PlaylistScript;
+  src: url("/fonts/Playlist Script.otf");
+}
+
+body.landing {
+  padding-top: 40px;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body.landing .footer {
+  padding-top: 10px;
+  background: transparent;
+}
+
+body.landing h1 {
+  font-size: 50px;
+  font-weight: normal;
+}
+
+body.landing .navigation {
+  margin-top: 25px !important;
+}
+
+body.landing .logo h1 .item {
+  margin-bottom: 12px;
+  letter-spacing: 25px;
+}
+
+body.landing h1 .item.script{
+  font-family: PlaylistScript;
+  letter-spacing: -1px;
+  font-size: 2em !important;
+  margin-right: 30px;
+}
+
+body.landing h1 .item.self{
+  letter-spacing: 33px;
+}
+
+body.landing .grid .column {
+  font-family: 'Montserrat', sans-serif;
+  max-width: 600px;
+}
+body.landing .logo .column {
+  max-width: 370px;
+  padding-left: 30px !important;
+  background: rgba(255, 255, 255, 0.84);
+  border-radius: 3px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+body.landing .grid .column .content {
+  padding: 20px 0;
+}
+body.landing .ui.menu {
+  background-color: transparent;
+}
+body.landing .ui.menu .icon {
+  color: white;
+}
+body.landing .divider {
+  color: white;
+}
+body.landing .nav-item {
+  padding: 30px 0;
+}
+body.landing .nav-item a {
+  font-size: 47px;
+  letter-spacing: 10px;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  body.landing h1 {
+    font-size: 40px;
+  }
+
+  body.landing .logo .column {
+    max-width: 300px;
+    padding-left: 40px !important;
+  }
+
+  body.landing {
+    background-size: 155%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body.landing {
+    background-size: 250%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  body.landing h1 {
+    font-size: 30px;
+  }
+
+  body.landing .navigation .nav-item a {
+    font-size: 40px;
+  }
+
+  body.landing .logo .column {
+    max-width: 270px;
+  }
+
+  body.landing h1 .item.self {
+    letter-spacing: 28px;
+  }
+
+  body.landing {
+    background-size: cover;
+    background: no-repeat center center fixed;
+  }
 }
 
 p, .markdown {
@@ -125,10 +243,33 @@ a.product {
   margin-left: auto;
 }
 
+.strong-post-title {
+  font-family: "BebasNeue Regular";
+  font-size: 50px;
+  letter-spacing: 5px;
+  color: #4183C4;
+}
+
+.blog-index h3.ui.header {
+  font-size: 29px;
+
+}
+
+.read-more {
+  font-weight: bolder;
+}
+
 .blog.markdown h4, .blog h2, .blog h3, .blog h5 {
   text-align: center;
   margin-bottom: 30px;
   margin-top: 50px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blog-header.ui.text.container {
+  max-width: 900px !important;
 }
 
 .blog.markdown h2 {
@@ -138,6 +279,10 @@ a.product {
 .blog p, .markdown p, .markdown {
   line-height: 2em;
   font-size: 19px;
+}
+
+.container.blog.markdown {
+  margin 0 auto;
 }
 
 .blog p strong {
@@ -163,6 +308,26 @@ a.product {
 .blog-share .fa {
   font-size: 32px;
   padding-left: 11px;
+}
+
+.pinnable {
+  max-width: 650px;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+.pinnable .ui.header {
+  font-size: 40px !important;
+  margin-bottom: 0.5em;
+}
+
+#mc_embed_signup input.email, #mc_embed_signup .button {
+  font-size: 20px !important;
+  height: 50px !important;
+}
+
+#mc_embed_signup .button {
+  padding: 0 80px !important;
 }
 
 @font-face {
@@ -245,33 +410,6 @@ h3.ui.header {
   font-size: 27px;
 }
 
-
-.slideshow .controls a.right {
-  right: 0;
-  left: auto;
-  padding-right: 20px;
-}
-
-.slideshow .controls a.left {
-  right: auto;
-  left: 0;
-  padding-left: 20px;
-}
-.slideshow .controls a {
-  position: absolute;
-  height: 100%;
-  top: 0;
-  bottom: 0;
-  font-size: 4em;
-  color: #363636a1;
-  z-index: 5;
-  padding-top: 21%;
-}
-
-.slideshow .controls a:hover {
-  cursor: pointer;
-}
-
 .big-nav .column .content {
   background-color: #80808026;
   font-family: "BebasNeue Regular"
@@ -279,25 +417,6 @@ h3.ui.header {
 
 .centered {
   text-align: center;
-}
-
-.slide {
-  display: none;
-  border-radius: 5px;
-}
-
-.slide.slide--current { display: block;}
-.nav-img {
-  padding-left: 20px;
-  padding-right: 20px;
-
-  padding-top: 30px;
-  padding-bottom: 20px;
-
-  border-radius: 5px;
-}
-.nav-img:hover {
-   cursor: pointer;
 }
 
 .ui.section {

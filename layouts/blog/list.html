@@ -23,7 +23,7 @@ Make Yourself Designs
 <body>
   {{ partial "nav.html" }}
 
-<main class='ui container'>
+<main class='ui container blog-index'>
 <h1 class='ui header'>
 {{ .Site.Params.bloghead }}
 </h1>
@@ -45,7 +45,7 @@ Make Yourself Designs
                 <div class="markdown">
                     {{ .Summary }}
                 {{ if .Truncated }}
-                <a href="{{ .RelPermalink }}">...Read More</a>
+                <a class="read-more" href="{{ .RelPermalink }}">...Read More</a>
                 {{ end }}
                 </div>
         </div>

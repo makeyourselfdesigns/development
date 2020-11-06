@@ -1,8 +1,8 @@
-baseurl             = "http://makeyourselfdesigns.com/"   # Your domain name. Must end with "/"
+baseurl             = "https://makeyourselfdesigns.com/"   # Your domain name. Must end with "/"
 languageCode        = "en-us"
 title               = "Make Yourself Designs"
 theme               = "introduction"
-enforce_ssl         = false
+enforce_ssl         = true
 builddrafts         = true                    # Include pages with draft status of true
 canonifyurls        = true                          # Turns relative urls into absolute urls
 # disqusshortname   = "xxx"                         # Enable Disqus for comments

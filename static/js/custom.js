@@ -1,9 +1,14 @@
 window.onload = function() {
-	elements = document.getElementsByClassName('price');
+  let form = document.querySelector("form.subscribe")
 
-	for (i = 0; i < elements.length; i++)  {
-	  element = elements[i];
-	  text = element.textContent;
-	  element.textContent = Number(text).toLocaleString('en');
-	}
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+
+    fetch(form.action, {
+      method: form.method,
+      body: new FormData(form)
+    })
+
+    form.classList.add("success")
+  })
 }

@@ -3,22 +3,51 @@ body, .summary .markdown {
   font-family: 'Montserrat', sans-serif;
 }
 
+form.subscribe {
+  margin-bottom: 0px;
+}
+
+form.success .input {
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+
+   opacity: 0;
+}
+
+form .message {
+   opacity: 0;
+   display: block;
+   color: white;
+   font-size: 47px;
+}
+
+.ui.raised.segment {
+  background: #fff9f952;
+}
+
+form.success .message {
+  -webkit-transition: opacity 2s ease-in-out;
+  -moz-transition: opacity 2s ease-in-out;
+  -ms-transition: opacity 2s ease-in-out;
+  -o-transition: opacity 2s ease-in-out;
+
+  opacity: 1;
+}
+
 @font-face {
   font-family: PlaylistScript;
   src: url("/fonts/Playlist Script.otf");
 }
 
 body.landing {
-  padding-top: 40px;
-  height: 100%;
+  padding-top: 80px;
+  height: fit-content;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-body.landing .footer {
-  padding-top: 10px;
-  background: transparent;
+  background-attachment: fixed
 }
 
 body.landing h1 {
@@ -69,13 +98,17 @@ body.landing .ui.menu .icon {
 body.landing .divider {
   color: white;
 }
+
 body.landing .nav-item {
   padding: 30px 0;
 }
+
 body.landing .nav-item a {
+  padding: 10px 100px;
   font-size: 47px;
   letter-spacing: 10px;
   color: white;
+  width: 100%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -438,4 +471,3 @@ h3.ui.header {
 @media only screen and (min-width: 1200px) .ui.container {
   width: 1200px !important;
 }
-

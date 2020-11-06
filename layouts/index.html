@@ -1,18 +1,11 @@
 <html>
 <head>
 <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'>
-<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0' name='viewport'>
 <meta name="p:domain_verify" content="e9bad3f34c18f76bfbd73ecd15f1122f"/>
 <link href='/css/semantic.min.css' rel='stylesheet' type='text/css'>
 <link href='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/components/icon.min.css' rel='stylesheet' type='text/css'>
 <link href='/css/custom.css' rel='stylesheet' type='text/css'>
-<script crossorigin='anonymous' integrity='sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=' src='https://code.jquery.com/jquery-3.3.1.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/components/dropdown.min.js' type='text/javascript'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/components/popup.min.js' type='text/javascript'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/components/transition.min.js' type='text/javascript'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/components/sidebar.min.js' type='text/javascript'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/components/dimmer.min.js' type='text/javascript'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/components/api.min.js' type='text/javascript'></script>
+<script src='/js/custom.js' type='text/javascript'></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121990303-2"></script>
 <script>
@@ -24,18 +17,34 @@
 </script>
 
 {{ template "_internal/google_analytics_async.html" . }}
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="referrer" content="no-referrer">
+<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0' name='viewport'>
+
+<meta itemprop="date"
+      content="{{ .Date.Format (.Site.Params.date | default "January 2, 2006") }}">
+<meta itemprop="dateModified"
+      content="{{ .Date.Format (.Site.Params.dateModified | default "January 2, 2006") }}">
+<meta itemprop="image"  content="{{ .Site.BaseURL }}img/{{ .Params.img }}" />
+
+
 <title>
-Make Yourself Designs
+{{ .Title }}
 </title>
 <meta charset="UTF-8">
 {{ if .Params.description }}
-<meta content="Blog - {{ .Params.description }}" name='description'>
+<meta content="{{ .Params.description }}" name='description'>
 {{ end  }}
 {{ if .Params.keywords }}
 <meta content="{{ .Params.keywords }}" name='keywords'>
 {{ end  }}
 </head>
-<body class="landing" style="background-image: url('../img/landing-1.jpg');">
+<body class="landing" style="background-image: url('../img/{{.Params.img}}');">
+<h1 style="visibility: hidden; font-size: 1px; margin-bottom: 0px;">Make Yourself Designs</h1>
 <div class='ui center aligned grid logo'>
   <div class="column">
     <div class="content">
@@ -56,39 +65,45 @@ Make Yourself Designs
     </div>
   </div>
 </div>
+
 <div class='ui middle aligned center aligned grid navigation'>
   <div class="column">
     <div class="content">
       <nav class="ui nav">
         <div class="nav-item">
-          <a class="nav-item" href="https://www.etsy.com/shop/MakeYourselfDesigns">SHOP</a>
+          <form class="subscribe" action="{{ .Params.remoteUrl }}/subscribers.json" data-remote="" method="post">
+
+
+          <span class="message">THANK YOU</span>
+          <div class="ui action massive input">
+            <input name="subscriber[email]" type="email">
+            <button type="submit" class="ui teal button">
+              Subscribe to Newsletter
+            </button>
+          </div>
+          </form>
         </div>
-        <div class="nav-item">
-          <a class="/about" href="/about">ABOUT</a>
+        <div class="nav-item ui raised segment">
+          <a href="https://www.etsy.com/shop/MakeYourselfDesigns">ETSY SHOP</a>
         </div>
-        <div class="nav-item">
-          <a class="/blog" href="/blog">BLOG</a>
+        <div class="nav-item ui raised segment">
+          <a href='https://instagram.com/makeyourselfdesigns'>INSTAGRAM</a>
+        </div>
+        <div class="nav-item ui raised segment">
+          <a href='https://facebook.com/MYD518'>FACEBOOK</a>
+        </div>
+        <div class="nav-item ui raised segment">
+          <a class="about" href="/about">ABOUT</a>
+        </div>
+        <div class="nav-item ui raised segment">
+          <a class="blog" href="/blog">BLOG</a>
+        </div>
+        <div class="nav-item ui raised segment">
+          <a class="blog" href='mailto:MakeYourselfDesigns@gmail.com'>EMAIL</a>
         </div>
       </nav>
-
     </div>
   </div>
 </div>
-<footer class='ui footer'>
-<div class='ui container center aligned'>
-<a class='ui button circular icon basic inverted white huge' href='mailto:MakeYourselfDesigns@gmail.com'>
-<i class='icon envelope'></i>
-</a>
-<a class='ui button circular icon basic inverted white huge' href='https://www.etsy.com/shop/MakeYourselfDesigns'>
-<i class='icon etsy'></i>
-</a>
-<a class='ui button circular icon basic inverted white huge' href='https://instagram.com/makeyourselfdesigns'>
-<i class='icon instagram'></i>
-</a>
-<a class='ui button circular icon basic inverted white huge' href='https://facebook.com/MYD518'>
-<i class='icon facebook'></i>
-</a>
-</div>
-</footer>
 </body>
 </html>

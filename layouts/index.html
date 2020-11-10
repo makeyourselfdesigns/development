@@ -45,66 +45,53 @@
 </head>
 <body class="landing" style="background-image: url('../img/{{.Params.img}}');">
 <h1 style="visibility: hidden; font-size: 1px; margin-bottom: 0px;">Make Yourself Designs</h1>
-<div class='ui center aligned grid logo'>
-  <img src="img/logo.png">
-<!--  <div class="column">
-    <div class="content">
-      <h1>
-        <div class="item">
-          MAKE
-        </div>
-        <div class="item">
-          YOUR
-        </div>
-        <div class="item self">
-          SELF
-        </div>
-        <div class="item script">
-          designs
-        </div>
-      </h1>
-    </div>
-  </div> -->
+<div class='ui container logo'>
+  <img src="img/logo.png" class="ui fluid centered image">
 </div>
 
-<div class='ui middle aligned center aligned grid navigation'>
-  <div class="column">
-    <div class="content">
-      <nav class="ui nav">
-        <div class="nav-item">
-          <form class="subscribe" action="{{ .Params.remoteUrl }}/subscribers.json" data-remote="" method="post">
+<div class="ui container">
+  <div class='ui middle aligned center aligned grid navigation'>
+    <div class="column">
+      <div class="content">
+        <nav class="ui nav">
+          <div class="nav-item">
+            <form class="subscribe" action="{{ .Params.remoteUrl }}/subscribers.json" data-remote="" method="post">
 
 
-          <span class="message">THANK YOU</span>
-          <div class="ui action massive input">
-            <input name="subscriber[email]" type="email">
-            <button type="submit" class="ui teal button">
-              Subscribe to Newsletter
-            </button>
+            <span class="message">THANK YOU</span>
+            <div class="ui action huge input fluid">
+              <input name="subscriber[email]" type="email">
+              <button type="submit" class="ui teal button">
+                Subscribe
+                <span class="mobile-hidden">
+                  To Newsletter
+                </span>
+              </button>
+            </div>
+            </form>
           </div>
-          </form>
-        </div>
-        <div class="nav-item ui raised segment">
-          <a href="https://www.etsy.com/shop/MakeYourselfDesigns">ETSY SHOP</a>
-        </div>
-        <div class="nav-item ui raised segment">
-          <a href='https://instagram.com/makeyourselfdesigns'>INSTAGRAM</a>
-        </div>
-        <div class="nav-item ui raised segment">
-          <a href='https://facebook.com/MYD518'>FACEBOOK</a>
-        </div>
-        <div class="nav-item ui raised segment">
-          <a class="about" href="/about">ABOUT</a>
-        </div>
-        <div class="nav-item ui raised segment">
-          <a class="blog" href="/blog">BLOG</a>
-        </div>
-        <div class="nav-item ui raised segment">
-          <a class="blog" href='mailto:MakeYourselfDesigns@gmail.com'>EMAIL</a>
-        </div>
-      </nav>
+          <div class="nav-item ui raised segment">
+            <a href="https://www.etsy.com/shop/MakeYourselfDesigns">ETSY</a>
+          </div>
+          <div class="nav-item ui raised segment">
+            <a href='https://instagram.com/makeyourselfdesigns'>INSTAGRAM</a>
+          </div>
+          <div class="nav-item ui raised segment">
+            <a href='https://facebook.com/MYD518'>FACEBOOK</a>
+          </div>
+          <div class="nav-item ui raised segment">
+            <a class="about" href="/about">ABOUT</a>
+          </div>
+          <div class="nav-item ui raised segment">
+            <a class="blog" href="/blog">BLOG</a>
+          </div>
+          <div class="nav-item ui raised segment">
+            <a class="blog" href='mailto:MakeYourselfDesigns@gmail.com'>EMAIL</a>
+          </div>
+        </nav>
+      </div>
     </div>
   </div>
-</div>
+  </div>
 </body>
 </html>

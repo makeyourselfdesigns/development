@@ -64,6 +64,10 @@ body.landing .logo h1 .item {
   letter-spacing: 25px;
 }
 
+.logo img {
+  max-width: 550px !important;
+}
+
 body.landing h1 .item.script{
   font-family: PlaylistScript;
   letter-spacing: -1px;
@@ -104,16 +108,24 @@ body.landing .nav-item {
 }
 
 body.landing .nav-item a {
-  padding: 10px 100px;
-  font-size: 47px;
-  letter-spacing: 10px;
+  padding: 9px 100px;
+  font-size: 46px;
+  letter-spacing: 9px;
   color: white;
-  width: 100%;
+  width: 99%;
 }
 
 @media only screen and (max-width: 600px) {
   body.landing h1 {
     font-size: 40px;
+  }
+
+  .mobile-hidden {
+    display: none;
+  }
+
+  body.landing .nav-item a {
+    font-size: 25px !important;
   }
 
   body.landing .logo .column {

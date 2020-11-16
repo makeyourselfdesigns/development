@@ -47,7 +47,9 @@
 <body class="landing" style="background-image: url('../img/{{.Params.img}}');">
 <h1 style="visibility: hidden; font-size: 1px; margin-bottom: 0px;">Make Yourself Designs</h1>
 <div class='ui container logo'>
-  <img src="img/logo.png" class="ui fluid centered image">
+  <a href="https://www.etsy.com/shop/MakeYourselfDesigns">
+    <img src="img/logo.png" class="ui fluid centered image">
+  </a>
 </div>
 
 <div class="ui container">
@@ -55,9 +57,15 @@
     <div class="column">
       <div class="content">
         <nav class="ui nav">
+         <div class="nav-item ui raised segment">
+            <a href="https://www.etsy.com/shop/MakeYourselfDesigns">SHOP NOW</a>
+          </div>
+          <div class="nav-item ui raised segment">
+            <a href='https://instagram.com/makeyourselfdesigns'>$5 COUPON</a>
+          </div>
+ <!--
           <div class="nav-item">
             <form class="subscribe" action="{{ .Params.remoteUrl }}/subscribers.json" data-remote="" method="post">
-
 
             <span class="message">THANK YOU</span>
             <div class="ui action huge input fluid">
@@ -70,29 +78,13 @@
               </button>
             </div>
             </form>
-          </div>
-          <div class="nav-item ui raised segment">
-            <a href="https://www.etsy.com/shop/MakeYourselfDesigns">ETSY</a>
-          </div>
-          <div class="nav-item ui raised segment">
-            <a href='https://instagram.com/makeyourselfdesigns'>INSTAGRAM</a>
-          </div>
-          <div class="nav-item ui raised segment">
-            <a href='https://facebook.com/MYD518'>FACEBOOK</a>
-          </div>
-          <div class="nav-item ui raised segment">
-            <a class="about" href="/about">ABOUT</a>
-          </div>
-          <div class="nav-item ui raised segment">
-            <a class="blog" href="/blog">BLOG</a>
-          </div>
-          <div class="nav-item ui raised segment">
-            <a class="blog" href='mailto:MakeYourselfDesigns@gmail.com'>EMAIL</a>
-          </div>
+          </div> -->
         </nav>
       </div>
     </div>
   </div>
   </div>
+
+{{ partial "footer.html" }}
 </body>
 </html>

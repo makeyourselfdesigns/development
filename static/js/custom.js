@@ -13,4 +13,14 @@ window.onload = function() {
       form.classList.add("success")
     })
   })
+
+  let toggles = document.querySelectorAll(".show-modal")
+
+  toggles.forEach((toggle) => {
+    toggle.addEventListener('click', event => {
+      event.preventDefault();
+
+      $(".modal").modal('show');
+    })
+  })
 }

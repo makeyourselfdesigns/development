@@ -5,8 +5,13 @@
 <link href='/css/semantic.min.css' rel='stylesheet' type='text/css'>
 <link href='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/components/icon.min.css' rel='stylesheet' type='text/css'>
 <link href='/css/custom.css' rel='stylesheet' type='text/css'>
-<script src='/js/custom.js' type='text/javascript'></script>
 
+<script crossorigin='anonymous' integrity='sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=' src='https://code.jquery.com/jquery-3.3.1.min.js'></script>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/components/transition.min.js' type='text/javascript'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/components/modal.min.js' type='text/javascript'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/components/dimmer.min.js' type='text/javascript'></script>
+<script src='/js/custom.js' type='text/javascript'></script>
 {{ partial "analytics.html" }}
 
 {{ template "_internal/google_analytics_async.html" . }}
@@ -44,6 +49,28 @@
   </a>
 </div>
 
+<div class="ui basic small modal">
+  <div class="header">
+    <h2 class="">
+      Sign Up for the Newsletter to save <span class="money">$5 dollars </span> every month
+    </h2>
+  </div>
+
+    <form class="ui form subscribe" action="{{ .Params.remoteUrl }}/subscribers.json" data-remote="" method="post">
+    <span class="message">THANK YOU</span>
+    <div class="ui action huge input fluid">
+      <input name="subscriber[email]" type="email">
+      <button type="submit" class="ui teal button">
+        Subscribe
+        <span class="mobile-hidden">
+          To Newsletter
+        </span>
+      </button>
+    </div>
+    </form>
+</div>
+
+
 <div class="ui container">
   <div class='ui middle aligned center aligned grid navigation'>
     <div class="column">
@@ -53,25 +80,9 @@
             <a href="https://www.etsy.com/shop/MakeYourselfDesigns">SHOP NOW</a>
           </div>
           <div class="nav-item ui raised segment">
-            <a href='https://instagram.com/makeyourselfdesigns'>$5 COUPON</a>
+            <a class="show-modal" href='#'>$5 COUPON</a>
           </div>
- <!--
-          <div class="nav-item">
-            <form class="subscribe" action="{{ .Params.remoteUrl }}/subscribers.json" data-remote="" method="post">
-
-            <span class="message">THANK YOU</span>
-            <div class="ui action huge input fluid">
-              <input name="subscriber[email]" type="email">
-              <button type="submit" class="ui teal button">
-                Subscribe
-                <span class="mobile-hidden">
-                  To Newsletter
-                </span>
-              </button>
-            </div>
-            </form>
-          </div> -->
-        </nav>
+         </nav>
       </div>
     </div>
   </div>

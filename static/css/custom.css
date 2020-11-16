@@ -13,9 +13,6 @@ footer.footer {
   background-color: transparent!important;
 }
 
-form.subscribe {
-  margin-bottom: 0px;
-}
 
 form.success .input {
   -webkit-transition: opacity 1s ease-in-out;
@@ -507,6 +504,10 @@ h3.ui.header {
   body.landing .nav-item a {
     padding: 9px 100px;
   }
+
+  form.subscribe {
+    margin: 0 50px;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -514,3 +515,16 @@ h3.ui.header {
     width: 1200px !important;
   }
 }
+
+.modal .header h2 {
+  font-size: 40px;
+}
+
+.modal.basic {
+  top: 20%;
+}
+
+span.money {
+  color: #5fff80;
+}
+

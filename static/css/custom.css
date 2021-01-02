@@ -22,6 +22,10 @@ form.success .input {
   opacity: 0;
 }
 
+#custom-message {
+  margin-top: 20px;
+}
+
 form .message {
   opacity: 0;
   display: block;
